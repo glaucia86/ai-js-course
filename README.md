@@ -73,7 +73,10 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 > [!NOTE]  
 > À medida que você avança no curso, pode se deparar com algumas ferramentas que não são totalmente gratuitas. No entanto, sempre que possível, ofereceremos alternativas gratuitas ou versões de teste para que todos possam acompanhar o conteúdo sem barreiras. Além disso, novas ferramentas gratuitas podem surgir ao longo do curso, e iremos incorporá-las sempre que forem relevantes.
 
-## 📅 Módulos do Curso (a ser lançado: segunda semana de Março/2025)
+## 📅 Módulos do Curso
+
+> [!NOTE]
+> A ser lançado em breve. Segunda semana de Março de 2025 (módulo 1).
 
 <details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
 
