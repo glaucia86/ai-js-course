@@ -2,10 +2,10 @@
 
 Aqui você encontrará todos os vídeos, explicações detalhadas e exemplos práticos desenvolvidos ao longo do Módulo 01 do curso.
 
-## Índice
+## 📑 Índice
 
 - [🚀 Módulo 01 - Introdução à Inteligência Artificial](#-módulo-01---introdução-à-inteligência-artificial)
-  - [Índice](#índice)
+  - [📑 Índice](#-índice)
   - [💻 Vídeos](#-vídeos)
     - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](#episódio-11-o-jogo-mudou---a-revolução-da-ia)
     - [Episódio 1.2: Arquitetura de LLMs para Desenvolvedores(as)](#episódio-12-arquitetura-de-llms-para-desenvolvedoresas)
