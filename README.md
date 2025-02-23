@@ -76,7 +76,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 ## 📅 Módulos do Curso
 
 > [!NOTE]
-> A ser lançado em breve. Segunda semana de Março de 2025 (módulo 1).
+> _A ser lançado em breve. Segunda semana de Março de 2025 (módulo 1)._
 
 <details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
 
