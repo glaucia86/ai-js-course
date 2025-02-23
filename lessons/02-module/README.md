@@ -72,12 +72,12 @@ O **SDK do Azure OpenAI** é a principal ferramenta para desenvolvedores que des
 
 ---
 
-## **Episódio 2.3: Text Completions Fundamentais (12 minutos)**  
+## **Episódio 2.3: Text Completions Fundamentais**  
 
 - **Link do Vídeo**: [Episódio 2.3: Text Completions Fundamentais]()  
-- **Recursos**: [Recursos do Episódio 2.3: Text Completions Fundamentais](./resources/3-resources.md)  
+- **Recursos**: [Recursos do Episódio 2.3: Text Completions Fundamentais](./resources/03-resources.md)  
 
-Neste episódio, mergulhamos nos fundamentos teóricos do **Text Completion**, estabelecendo uma base sólida para implementações práticas. **Text Completions** permitem que modelos de IA gerem texto com base em um prompt, sendo amplamente utilizados para geração de conteúdo, assistentes virtuais e automação de respostas.  
+Neste episódio, mergulharemos nos fundamentos teóricos do **Text Completion**, estabelecendo uma base sólida para implementações práticas. **Text Completions** permitem que modelos de IA gerem texto com base em um prompt, sendo amplamente utilizados para geração de conteúdo, assistentes virtuais e automação de respostas.  
 
 ### 📌 O que você aprenderá?
 
@@ -100,7 +100,7 @@ Ao final deste episódio, você terá uma compreensão clara dos **fundamentos d
 ## **Episódio 2.4: Executando os Exemplos de Text Completions**  
 
 - **Link do Vídeo**: [Episódio 2.4: Executando os Exemplos de Text Completions]()  
-- **Recursos**: [Recursos do Episódio 2.4: Executando os Exemplos](./resources/4-resources.md)  
+- **Recursos**: [Recursos do Episódio 2.4: Executando os Exemplos](./resources/04-resources.md)  
 
 Agora que entendemos os fundamentos teóricos, vamos colocar os conceitos em prática! Neste episódio, utilizaremos o **Azure OpenAI SDK** para **executar requisições de Text Completion**, testando diferentes configurações e explorando sua aplicabilidade real.  
 
@@ -122,25 +122,155 @@ Ao final deste episódio, você será capaz de **implementar e otimizar Text Com
 
 ---
 
-## **Episódio 2.5: Gerenciamento de Respostas (10 minutos)**
+Aqui está a versão do **Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI** seguindo a estrutura que você deseja:  
 
-- Parsing e validação de respostas
-- Tratamento de erros e fallbacks
-- Formatação e estruturação de outputs
-- Implementação de tipos para respostas
-- Estratégias de rate limiting
+---
 
-#### Bloco 2: Recursos Multimodais (4 episódios)
+### **Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**  
 
-##### Episódio 2.6: Geração de Imagens com DALL-E (12 minutos)
+- **Link do Vídeo**: [Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI]()  
+- **Recursos**: [Recursos do Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI](./resources/05-resources.md)  
 
-- Integração com a API do DALL-E
-- Tipos para requisições de imagem
-- Estratégias de prompting para imagens
-- Gerenciamento e armazenamento de imagens
-- Otimização e variações de imagens
+Neste episódio, exploramos **como a API da Azure OpenAI estrutura suas respostas**, quais são seus principais componentes e as melhores práticas para **validar, tratar erros e otimizar** o processamento dessas respostas. Entender esses conceitos é essencial para **garantir qualidade, eficiência e segurança na integração de IA em aplicações JavaScript/TypeScript**.  
 
-##### Episódio 2.7: Processamento de Áudio - Fundamentos (12 minutos)
+### 📌 O que você aprenderá?
+
+- **Anatomia das Respostas da Azure OpenAI** → Como as respostas da API são estruturadas e quais dados podem ser extraídos.  
+
+- **Diferentes tipos de respostas** → Diferenças entre **Chat Completions e Text Completions** e quando usar cada um.  
+
+- **Componentes das respostas** → Como interpretar **choices, content, metadata** e outras informações relevantes.  
+
+- **Sistema de filtragem de conteúdo integrado** → Como a API lida com respostas potencialmente problemáticas e quando aplicar mecanismos adicionais de segurança.  
+
+- **Estratégias de Validação** → Como garantir que as respostas da API **sigam o formato esperado**, evitando que erros afetem o fluxo da aplicação.  
+
+- **Padrões de Tratamento de Erros** → Como lidar com **timeouts, rate limits e respostas inesperadas**, aplicando estratégias de fallback e retry policies.  
+
+- **Otimização de Performance** → Como **controlar custos**, implementar **cache** para respostas frequentes e monitorar o **uso da API** para evitar desperdícios.  
+
+Ao final deste episódio, você terá uma compreensão clara sobre **como processar, validar e otimizar as respostas da Azure OpenAI**, garantindo maior eficiência e confiabilidade ao integrar IA em suas aplicações. 🚀  
+
+---
+
+Aqui está a versão do **Episódio 2.6: Implementando o Gerenciamento de Respostas**, seguindo o modelo solicitado:
+
+---
+
+## **Episódio 2.6: Implementando o Gerenciamento de Respostas**  
+
+- **Link do Vídeo**: [Episódio 2.6: Implementando o Gerenciamento de Respostas]()  
+- **Recursos**: [Recursos do Episódio 2.6: Implementando o Gerenciamento de Respostas](./resources/06-resources.md)  
+
+Neste episódio prático, colocaremos em prática os conceitos do episódio anterior, criando um **sistema robusto de gerenciamento de respostas** utilizando **TypeScript** e o **SDK da Azure OpenAI**. Implementaremos técnicas para **processamento eficiente de respostas, tratamento de erros e otimização de chamadas à API**.  
+
+### 📌 O que você aprenderá?  
+
+- **Sistema de Processamento de Respostas** → Como estruturar o processamento das respostas da API de forma modular e eficiente.  
+
+- **Criação de Tipos e Interfaces** → Uso de **tipagem forte no TypeScript** para garantir segurança e previsibilidade no código.  
+
+- **Validação e Parsing de Respostas** → Como verificar e transformar os dados retornados pela API.  
+
+- **Tratamento de Metadados** → Extração e manipulação de informações auxiliares, como **uso de tokens, timestamps e logs**.  
+
+- **Mecanismo de Tratamento de Erros** → Como capturar, categorizar e tratar erros da API de forma estruturada.  
+
+- **Sistema de Fallback e Recuperação** → Estratégias para lidar com falhas e manter a estabilidade da aplicação.  
+
+- **Logging Estruturado** → Implementação de logs detalhados para depuração e análise de performance.  
+
+- **Formatador de Respostas** → Como transformar e estruturar as respostas para diferentes casos de uso, incluindo **JSON, Markdown e estruturas personalizadas**.  
+
+- **Gerenciador de Rate Limiting** → Controle inteligente de chamadas à API para evitar bloqueios e maximizar eficiência.  
+
+- **Retry Mechanisms e Filas de Processamento** → Como reprocessar chamadas falhas de forma automática e otimizada.  
+
+Ao final deste episódio, você terá um sistema funcional para **gerenciar, validar e otimizar respostas da Azure OpenAI**, garantindo **eficiência, segurança e escalabilidade** na integração de IA em suas aplicações. 🚀  
+
+---
+
+Aqui está a versão estruturada do **Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E**, seguindo o modelo solicitado:
+
+---
+
+## **Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E**  
+
+- **Link do Vídeo**: [Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E]()  
+- **Recursos**: [Recursos do Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E](./resources/07-resources.md)  
+
+Neste episódio, exploraremos os conceitos fundamentais por trás da **geração de imagens usando o DALL-E** através do **Azure OpenAI Service**. Compreenderemos **como a API funciona, suas capacidades e melhores práticas** para criar imagens realistas e criativas a partir de descrições textuais.  
+
+### 📌 O que você aprenderá?  
+
+- **Fundamentos do DALL-E** → Como funciona a **geração de imagens a partir de texto** e sua aplicação prática.  
+
+- **Diferenças entre DALL-E 2 e DALL-E 3** → Comparação entre as versões, destacando avanços e limitações.  
+
+- **Capacidades e limitações de cada modelo** → O que cada versão pode ou não fazer em termos de detalhamento e realismo.  
+
+- **Quando usar cada versão do modelo** → Escolhendo o modelo ideal com base no caso de uso e restrições da API.  
+
+- **Técnicas de Engenharia de Prompts para Imagens** → Como estruturar **prompts efetivos** para obter imagens mais precisas.  
+
+- **Estratégias para melhorar resultados** → Ajustes na descrição e técnicas para influenciar a saída visual.  
+
+- **Como o DALL-E 3 processa e melhora prompts** → Diferenças na interpretação dos comandos textuais.  
+
+- **Boas práticas para prompts visuais** → Formas de descrever cenas e elementos para obter imagens de maior qualidade.  
+
+- **Configurações e Parâmetros** → Opções disponíveis na API, incluindo:  
+  - **Tamanhos de imagem** (1024x1024, 1024x1792, 1792x1024).  
+  - **Controle de qualidade** (Standard vs. HD).  
+  - **Número de variações permitidas** para experimentação.  
+  - **Limites e cotas da API** para otimizar uso.  
+
+- **Considerações Técnicas** → Aspectos importantes ao lidar com a geração de imagens, como:  
+  - **Formatos suportados** (PNG).  
+  - **Limitações de tamanho** (4MB).  
+  - **URLs temporárias vs. dados Base64** para armazenamento e manipulação.  
+  - **Gerenciamento de recursos** ao trabalhar com múltiplas imagens.  
+
+- **Segurança e Boas Práticas** → Como garantir um uso responsável e seguro da API, incluindo:  
+  - **Sistema de filtros de conteúdo** para moderação automática.  
+  - **Políticas de uso responsável** para evitar violações de diretrizes.  
+  - **Tratamento de erros comuns** ao gerar imagens.  
+  - **Estratégias de otimização** para reduzir custos e melhorar a eficiência das chamadas à API.  
+
+Ao final deste episódio, você terá um entendimento sólido sobre **como gerar imagens com o DALL-E via Azure OpenAI**, utilizando **melhores práticas para prompts, otimização de configurações e gerenciamento seguro dos resultados**. 
+
+---
+
+Aqui está a versão reduzida do **Episódio 2.8: Implementando DALL-E na Prática**, mantendo a estrutura desejada:  
+
+---
+
+## **Episódio 2.8: Implementando DALL-E na Prática**  
+
+- **Link do Vídeo**: [Episódio 2.8: Implementando DALL-E na Prática]()  
+- **Recursos**: [Recursos do Episódio 2.8: Implementando DALL-E na Prática](./resources/08-resources.md)  
+
+Neste episódio, **implementaremos a API do DALL-E** no **Azure OpenAI Service**, utilizando **TypeScript** para gerar imagens com base em prompts textuais. O objetivo é demonstrar como configurar e executar chamadas para criação de imagens, garantindo um fluxo funcional e eficiente.  
+
+### 📌 O que você aprenderá?  
+
+- **Configuração do ambiente** → Como preparar o projeto TypeScript para consumir a API do DALL-E.  
+
+- **Inicialização do cliente Azure OpenAI** → Configuração do SDK para realizar chamadas à API.  
+
+- **Geração de imagens** → Como estruturar prompts e definir parâmetros como **tamanho e qualidade**.  
+
+- **Manipulação de respostas** → Como processar as URLs das imagens geradas e armazená-las corretamente.  
+
+- **Tratamento de erros** → Estratégias para lidar com **rate limits, timeouts e respostas inválidas**.  
+
+- **Otimização de chamadas** → Como reduzir custos e melhorar o desempenho da geração de imagens.  
+
+Ao final deste episódio, você terá um sistema funcional para **geração e gerenciamento de imagens via API do DALL-E**, pronto para ser expandido e otimizado conforme necessário. 🚀  
+
+---
+
+##### Episódio 2.9: Processamento de Áudio - Fundamentos (12 minutos)
 
 - Introdução ao processamento de áudio com IA
 - Configuração do ambiente para áudio
