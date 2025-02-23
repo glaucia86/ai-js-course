@@ -89,7 +89,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-<details><summary>Módulo 2: Nível Básico - Fundamentos Práticos<b></b></summary>
+<details><summary><b>Módulo 2: Nível Básico - Fundamentos Práticos</b></summary>
 
 - [Episódio 2.1: Setup do Ambiente de Desenvolvimento](./lessons/02-module/README.md#episodio-1-setup-do-ambiente-de-desenvolvimento)
 - [Episódio 2.2: Fundamentos do Azure OpenAI SDK](./lessons/02-module/README.md#episodio-2-fundamentos-do-azure-openai-sdk)
