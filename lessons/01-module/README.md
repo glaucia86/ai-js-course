@@ -20,7 +20,7 @@ Aqui você encontrará todos os vídeos, explicações detalhadas e exemplos pr�
 
 ### Episódio 1.1: O Jogo Mudou - A Revolução da IA  
 
-- **Link**: [Episódio 1: O Jogo Mudou - A Revolução da IA]()  
+- **Link do Vídeo**: [Episódio 1: O Jogo Mudou - A Revolução da IA]()  
 - **Recursos**: [Recursos do Episódio 1: O Jogo Mudou - A Revolução da IA](./resources/01-resources.md)  
 
 Neste episódio, exploramos o impacto transformador da Inteligência Artificial no desenvolvimento de software e como isso afeta diretamente a vida dos desenvolvedores JavaScript/TypeScript.  
@@ -42,7 +42,7 @@ Ao final deste episódio, você terá uma visão clara do **novo papel do desenv
 
 ### Episódio 1.2: Arquitetura de LLMs para Desenvolvedores(as)  
 
-- **Link**: [Episódio 2: Arquitetura de LLMs para Desenvolvedores]()  
+- **Link do Vídeo**: [Episódio 2: Arquitetura de LLMs para Desenvolvedores]()  
 - **Recursos**: [Recursos do Episódio 2: Arquitetura de LLMs para Desenvolvedores](./resources/02-resource.md)  
 
 Neste episódio, exploramos a arquitetura dos **Large Language Models (LLMs)** com um foco prático para desenvolvedores(as). Compreender como esses modelos funcionam sob o capô é essencial para integrá-los de forma eficiente em aplicações JavaScript/TypeScript.  
@@ -65,7 +65,7 @@ Ao final deste episódio, você terá um entendimento técnico sólido sobre com
 
 ### Episódio 1.3: Fundamentos práticos de LLMs  
 
-- **Link**: [Episódio 3: Fundamentos práticos de LLMs]()  
+- **Link do Vídeo**: [Episódio 3: Fundamentos práticos de LLMs]()  
 - **Recursos**: [Recursos do Episódio 3: Fundamentos práticos de LLMs](./resources/03-resource.md)  
 
 Neste episódio, faremos uma imersão nos **aspectos práticos dos Large Language Models (LLMs)**, entendendo como esses modelos processam e geram texto, além de como otimizar seu uso em aplicações JavaScript/TypeScript.  
@@ -90,7 +90,7 @@ Ao final deste episódio, você terá uma compreensão prática sobre **como os 
 
 ### Episódio 1.4: Navegando pelo Ecossistema de IA  
 
-- **Link**: [Episódio 4: Navegando pelo Ecossistema de IA]()  
+- **Link do Vídeo**: [Episódio 4: Navegando pelo Ecossistema de IA]()  
 - **Recursos**: [Recursos do Episódio 4: Navegando pelo Ecossistema de IA](./resources/04-resource.md)  
 
 Neste episódio, exploraremos o **ecossistema de Inteligência Artificial**, comparando diferentes provedores e modelos disponíveis para desenvolvedores JavaScript/TypeScript. Nosso objetivo é ajudar você a escolher a solução mais adequada para cada tipo de projeto.  
@@ -113,7 +113,7 @@ Ao final deste episódio, você terá uma visão clara sobre o **ecossistema atu
 
 ### Episódio 1.5: Fundamentos de Prompt Engineering  
 
-- **Link**: [Episódio 5: Fundamentos de Prompt Engineering]()  
+- **Link do Vídeo**: [Episódio 5: Fundamentos de Prompt Engineering]()  
 - **Recursos**: [Recursos do Episódio 5: Fundamentos de Prompt Engineering](./resources/05-resource.md)  
 
 Neste episódio, exploraremos as **técnicas essenciais de Prompt Engineering**, um dos aspectos mais importantes ao trabalhar com **Large Language Models (LLMs)**. Criar prompts eficazes pode significar a diferença entre um modelo útil e um que gera respostas imprecisas ou inconsistentes.  
@@ -136,7 +136,7 @@ Ao final deste episódio, você terá um entendimento sólido de **como estrutur
 
 ## Episódio 6: Técnicas Avançadas de Prompting  
 
-- **Link**: [Episódio 6: Técnicas Avançadas de Prompting]()  
+- **Link do Vídeo**: [Episódio 6: Técnicas Avançadas de Prompting]()  
 - **Recursos**: [Recursos do Episódio 6: Técnicas Avançadas de Prompting](./resources/06-resource.md)  
 
 Neste episódio, exploraremos **técnicas avançadas de Prompt Engineering**, essenciais para desenvolver aplicações **mais inteligentes, adaptáveis e interativas**. Compreender essas abordagens permite criar **experiências mais naturais e dinâmicas** ao integrar LLMs em projetos TypeScript.  
@@ -154,8 +154,6 @@ Você aprenderá sobre:
 - **Padrões de Design para Sistemas de Prompting** → Boas práticas para desenvolver **prompts modulares, reutilizáveis e otimizados** para diferentes cenários.  
 
 Ao final deste episódio, você terá domínio sobre técnicas avançadas de prompting e saberá **como implementá-las de maneira eficaz em projetos TypeScript**, garantindo maior controle sobre as interações com LLMs. 🚀  
-
-
 
 ## 🛠️ Recursos e Materiais de Apoio  
 
