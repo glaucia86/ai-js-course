@@ -93,6 +93,8 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 - [Episódio 2.1: Setup do Ambiente de Desenvolvimento](./lessons/02-module/README.md#episodio-1-setup-do-ambiente-de-desenvolvimento)
 - [Episódio 2.2: Fundamentos do Azure OpenAI SDK](./lessons/02-module/README.md#episodio-2-fundamentos-do-azure-openai-sdk)
+- [Episódio 2.3: Text Completions Fundamentais](./lessons/02-module/README.md#episodio-3-text-completions-fundamentais)
+- [Episódio 2.4: Executando os Exemplos de Text Completions](./lessons/02-module/README.md#episodio-4-executando-os-exemplos)
 
 </details>
 

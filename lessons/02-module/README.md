@@ -72,14 +72,6 @@ O **SDK do Azure OpenAI** é a principal ferramenta para desenvolvedores que des
 
 ---
 
-Aqui está a versão reformulada do **Episódio 2.3: Text Completions Fundamentais**, seguindo a estrutura padronizada do curso e garantindo um foco claro nos conceitos principais:  
-
----
-
-Aqui está a versão revisada seguindo exatamente o formato que você deseja para **os episódios 2.3 e 2.4**:
-
----
-
 ## **Episódio 2.3: Text Completions Fundamentais (12 minutos)**  
 
 - **Link do Vídeo**: [Episódio 2.3: Text Completions Fundamentais]()  
