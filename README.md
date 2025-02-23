@@ -64,7 +64,7 @@ Dependendo do nível de aprofundamento, também exploraremos algumas dessas ferr
    
 - **[Deno](https://deno.com/)** 🦕 (Opcional) → Para quem deseja explorar uma alternativa ao Node.js no desenvolvimento de aplicações TypeScript modernas.  
 
----
+## 💡 Por que essas ferramentas?
 
 Essas ferramentas foram escolhidas para garantir que qualquer desenvolvedor JavaScript/TypeScript possa **testar e aprender IA sem precisar investir em infraestrutura pesada ou soluções pagas**. Durante o curso, apresentaremos cada recurso no momento apropriado, com **passo a passo de instalação e configuração**.
 
