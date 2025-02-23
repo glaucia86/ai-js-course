@@ -1,0 +1,1 @@
+# Recursos do Episódio 2.3: Text Completions Fundamentais
