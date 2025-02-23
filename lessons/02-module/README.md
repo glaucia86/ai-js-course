@@ -2,6 +2,43 @@
 
 Este módulo foca na aplicação prática dos conceitos teóricos aprendidos anteriormente, permitindo que você construa uma base sólida para desenvolvimento com IA.
 
+## 📑 Índice
+
+- [🛠️ Módulo 02:  Nível Básico: Fundamentos Práticos](#️-módulo-02--nível-básico-fundamentos-práticos)
+  - [📑 Índice](#-índice)
+  - [💻 Vídeos](#-vídeos)
+  - [🛠️ Nível Básico: Fundamentos Práticos](#️-nível-básico-fundamentos-práticos)
+  - [Episódio 2.1: Setup do Ambiente de Desenvolvimento](#episódio-21-setup-do-ambiente-de-desenvolvimento)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá)
+  - [**Episódio 2.2: Fundamentos do Azure OpenAI SDK**](#episódio-22-fundamentos-do-azure-openai-sdk)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-1)
+      - [🎯 **Ao final deste episódio, você será capaz de:**](#-ao-final-deste-episódio-você-será-capaz-de)
+  - [**Episódio 2.3: Text Completions Fundamentais**](#episódio-23-text-completions-fundamentais)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-2)
+  - [**Episódio 2.4: Executando os Exemplos de Text Completions**](#episódio-24-executando-os-exemplos-de-text-completions)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-3)
+    - [**Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**](#episódio-25-fundamentos-do-gerenciamento-de-respostas-da-azure-openai)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-4)
+  - [**Episódio 2.6: Implementando o Gerenciamento de Respostas**](#episódio-26-implementando-o-gerenciamento-de-respostas)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-5)
+  - [**Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E**](#episódio-27-fundamentos-da-geração-de-imagens-com-dall-e)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-6)
+  - [**Episódio 2.8: Implementando DALL-E na Prática**](#episódio-28-implementando-dall-e-na-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-7)
+  - [**Episódio 2.9: Processamento de Áudio - Fundamentos**](#episódio-29-processamento-de-áudio---fundamentos)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-8)
+  - [**Episódio 2.10: Implementação Prática de Processamento de Áudio**](#episódio-210-implementação-prática-de-processamento-de-áudio)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-9)
+      - [Episódio 2.8: Processamento de Áudio - Técnicas Avançadas (12 minutos)](#episódio-28-processamento-de-áudio---técnicas-avançadas-12-minutos)
+      - [Episódio 2.9: Text-to-Speech Implementação (10 minutos)](#episódio-29-text-to-speech-implementação-10-minutos)
+      - [Bloco 3: Recursos Fundamentais Avançados (3 episódios)](#bloco-3-recursos-fundamentais-avançados-3-episódios)
+        - [Episódio 2.10: Embeddings na Prática (12 minutos)](#episódio-210-embeddings-na-prática-12-minutos)
+        - [Episódio 2.11: Batch Processing (12 minutos)](#episódio-211-batch-processing-12-minutos)
+        - [Episódio 2.12: Otimização de Recursos (10 minutos)](#episódio-212-otimização-de-recursos-10-minutos)
+    - [🎯 Projeto Prático do Módulo](#-projeto-prático-do-módulo)
+    - [📚 Recursos e Materiais de Apoio](#-recursos-e-materiais-de-apoio)
+      
+
 ## 💻 Vídeos
 
 ## 🛠️ Nível Básico: Fundamentos Práticos
@@ -270,15 +307,70 @@ Ao final deste episódio, você terá um sistema funcional para **geração e ge
 
 ---
 
-##### Episódio 2.9: Processamento de Áudio - Fundamentos (12 minutos)
+Aqui estão os episódios 2.9 e 2.10 reestruturados conforme o modelo desejado:
 
-- Introdução ao processamento de áudio com IA
-- Configuração do ambiente para áudio
-- Implementação básica de speech-to-text
-- Tipos para processamento de áudio
-- Tratamento de formatos e codecs
+---
 
-##### Episódio 2.8: Processamento de Áudio - Técnicas Avançadas (12 minutos)
+## **Episódio 2.9: Processamento de Áudio - Fundamentos**  
+
+- **Link do Vídeo**: [Episódio 2.9: Processamento de Áudio - Fundamentos]()  
+- **Recursos**: [Recursos do Episódio 2.9: Processamento de Áudio - Fundamentos](./resources/09-resources.md)  
+
+Neste episódio, exploramos os **fundamentos do processamento de áudio** com **Azure OpenAI Service**, compreendendo **como a API lida com entrada e saída de áudio, suas capacidades e as melhores práticas** para aplicações de IA.  
+
+### 📌 O que você aprenderá?  
+
+- **Introdução ao Processamento de Áudio com IA** → Visão geral das capacidades da API para **Speech-to-Text (STT) e Text-to-Speech (TTS)**.  
+
+- **Diferença entre modelos especializados e multimodais** → Quando usar **modelos dedicados para áudio** vs. **modelos multimodais**.  
+
+- **Formatos e codecs suportados** → Entendendo **formatos compatíveis**, limites de tamanho e considerações de qualidade.  
+
+- **Fluxo de processamento de áudio** → Como funciona a **requisição e retorno de respostas de áudio** via API.  
+
+- **Componentes principais do sistema** → Como a **API manipula áudio** em diferentes cenários.  
+
+- **Modalidades de Entrada e Saída** → Diferenças entre **modos síncronos e assíncronos**, e **casos de uso recomendados**.  
+
+- **Aspectos Técnicos** → Estrutura das requisições, gerenciamento de **dados binários**, tratamento de **callbacks e latência**.  
+
+Ao final deste episódio, você terá uma compreensão sólida sobre **como funciona o processamento de áudio via Azure OpenAI**, preparando-se para a implementação prática no próximo episódio. 🚀  
+
+---
+
+## **Episódio 2.10: Implementação Prática de Processamento de Áudio**  
+
+- **Link do Vídeo**: [Episódio 2.10: Implementação Prática de Processamento de Áudio]()  
+- **Recursos**: [Recursos do Episódio 2.10: Implementação Prática de Processamento de Áudio](./resources/10-resources.md)  
+
+Neste episódio, aplicaremos **na prática os conceitos aprendidos**, utilizando **TypeScript e o SDK do Azure OpenAI** para **processar áudio via API**, transcrever falas e sintetizar voz a partir de texto.  
+
+### 📌 O que você aprenderá?  
+
+- **Configuração do Ambiente** → Como preparar um projeto **TypeScript** para consumir a API de áudio do Azure OpenAI.  
+
+- **Setup do projeto** → Instalação e configuração do SDK e dependências.  
+
+- **Implementação de Casos de Uso Básicos** → Como criar um **sistema de transcrição** (Speech-to-Text) e **geração de áudio** (Text-to-Speech).  
+
+- **Manipulação de Streams de Áudio** → Como processar **gravações e saídas de voz** de maneira eficiente.  
+
+- **Desenvolvimento de Funcionalidades Avançadas** → Construção de um **chat multimodal** combinando **texto e voz**.  
+
+- **Gestão de conversas multi-turn com áudio** → Como manter contexto em **diálogos baseados em áudio**.  
+
+- **Tratamento de erros e fallbacks** → Como lidar com **erros de processamento, latência e limitações da API**.  
+
+- **Otimização e Boas Práticas** → Técnicas para **buffering, streaming, cache e monitoramento** de chamadas.  
+
+- **Melhores Práticas de Produção** → Como implementar **logging, segurança e estratégias de escalabilidade**.  
+
+Ao final deste episódio, você terá um sistema funcional capaz de **converter texto em fala, transcrever áudio e integrar o processamento de voz a aplicações AI-first**.
+
+---
+
+
+#### Episódio 2.8: Processamento de Áudio - Técnicas Avançadas (12 minutos)
 
 - Processamento avançado de áudio
 - Análise de sentimento em áudio
@@ -286,7 +378,7 @@ Ao final deste episódio, você terá um sistema funcional para **geração e ge
 - Transcrição em tempo real
 - Otimização de qualidade
 
-##### Episódio 2.9: Text-to-Speech Implementação (10 minutos)
+#### Episódio 2.9: Text-to-Speech Implementação (10 minutos)
 
 - Implementação de text-to-speech
 - Customização de vozes e parâmetros
