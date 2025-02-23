@@ -1,6 +1,6 @@
 # 🚀 Módulo 01 - Introdução à Inteligência Artificial
 
-Aqui vocês encontrarão todos os vídeos, explicações e exemplos desenvolvidos durante o módulo 01 do curso.
+Aqui você encontrará todos os vídeos, explicações detalhadas e exemplos práticos desenvolvidos ao longo do Módulo 01 do curso.
 
 ## Índice
 
