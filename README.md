@@ -1,12 +1,12 @@
-# 🤖 AI for JavaScript/TypeScript Developers - Zero to Hero
+# 🤖 AI for JavaScript and TypeScript Developers - Zero to Hero
 
 <p align="center">
-  <img src="./media/ai-course-thumb.gif" alt="AI for Javascript/TypeScript Course" width="100%">
+  <img src="./media/ai-course-thumb.gif" alt="AI for Javascript and TypeScript Course" width="100%">
 </p>
 
 ## 📚 Visão geral do curso  
 
-Bem-vindo a um curso gratuito e abrangente, projetado para conectar o desenvolvimento em JavaScript/TypeScript ao mundo da Inteligência Artificial. Este curso capacita desenvolvedores de todos os níveis a explorar e aplicar o poder da IA em seus projetos.
+Bem-vindo a um curso gratuito e abrangente, projetado para conectar o desenvolvimento em JavaScript and TypeScript ao mundo da Inteligência Artificial. Este curso capacita desenvolvedores de todos os níveis a explorar e aplicar o poder da IA em seus projetos.
 
 ## ✨ O que torna este curso especial?
 
