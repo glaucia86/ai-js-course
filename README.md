@@ -98,10 +98,6 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-
-
----
-
 ### 📝 Como será o fluxo do curso?  
 
 Para garantir um aprendizado eficiente, cada **exemplo prático** seguirá uma estrutura clara:  
