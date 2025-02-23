@@ -75,7 +75,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 ## 📅 Módulos do Curso 
 
-<details><summary><b>Módulo 1: Introdução à TypeScript</b></summary>
+<details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
 
 - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](./lessons/01-module/README.md#episodio-1-o-jogo-mudou---a-revolucao-da-ia)
 - [Episódio 1.2: Arquitetura de LLMs para Desenvolvedores](./lessons/01-module/README.md#episodio-2-arquitetura-de-llms-para-desenvolvedores)
