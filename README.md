@@ -89,7 +89,10 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-<details><summary>Módulo 2: <b></b></summary>
+<details><summary>Módulo 2: Nível Básico - Fundamentos Práticos<b></b></summary>
+
+- [Episódio 2.1: Setup do Ambiente de Desenvolvimento](./lessons/02-module/README.md#episodio-1-setup-do-ambiente-de-desenvolvimento)
+- [Episódio 2.2: Fundamentos do Azure OpenAI SDK](./lessons/02-module/README.md#episodio-2-fundamentos-do-azure-openai-sdk)
 
 </details>
 
@@ -97,6 +100,21 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 ---
 
+### 📝 Como será o fluxo do curso?  
+
+Para garantir um aprendizado eficiente, cada **exemplo prático** seguirá uma estrutura clara:  
+
+1️⃣ **Explicação teórica** → Antes de cada exemplo, sempre teremos uma parte teórica para contextualizar o conceito que será abordado.
+
+2️⃣ **Código de exemplo** → Após a teoria, veremos a implementação prática do conceito em TypeScript.
+
+3️⃣ **Projetos práticos** → Quando trabalharmos em projetos completos, haverá uma aula dedicada cobrindo **desde a configuração inicial até o desenvolvimento completo**, garantindo que todos os detalhes sejam bem compreendidos.
+
+4️⃣ **Dicas e Boas Práticas** → Ao longo do curso, compartilharemos dicas valiosas e boas práticas para otimizar seu processo de desenvolvimento e aprimorar a qualidade do seu código.
+
+Sempre que possível, utilizaremos **GitHub Copilot** para demonstrar como essa ferramenta pode acelerar o desenvolvimento e melhorar a qualidade do código.
+
+Abaixo, você pode ver um diagrama que ilustra o fluxo do curso:
 
 ```mermaid
 graph LR
