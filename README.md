@@ -186,7 +186,9 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-### 📝 Como será o fluxo do curso?  
+---
+
+## 📝 Como será o fluxo do curso?  
 
 Para garantir um aprendizado eficiente, cada **exemplo prático** seguirá uma estrutura clara:  
 
@@ -209,6 +211,16 @@ graph LR
     C --> D[Advanced Features]
     D --> E[Real-world Projects]
 ```
+
+## ❗️Links & Recursos Importantes
+
+TBI
+
+## ❓Tenho Dúvidas... O que Faço?!
+
+Caso tenham dúvidas aos códigos desenvolvidos durante a série de vídeos, sintam-se à vontade em abrir uma [ISSUE AQUI](https://github.com/glaucia86/ai-js-course/issues). Assim que possível, estaremos respondendo a todas as dúvidas que tiverem!
+
+
 
 
 
