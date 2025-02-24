@@ -83,11 +83,12 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 <details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
 
 - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](./lessons/01-module/README.md#episodio-1-o-jogo-mudou---a-revolucao-da-ia)
-- [Episódio 1.2: Arquitetura de LLMs para Desenvolvedores](./lessons/01-module/README.md#episodio-2-arquitetura-de-llms-para-desenvolvedores)
-- [Episódio 1.3: Fundamentos Práticos de LLMs](./lessons/01-module/README.md#episodio-3-fundamentos-praticos-de-llms)
-- [Episódio 1.4: Navegando pelo Ecossistema de IA](./lessons/01-module/README.md#episodio-4-navegando-pelo-ecossistema-de-ia)  
-- [Episódio 1.5: Fundamentos de Prompt Engineering](./lessons/01-module/README.md#episodio-5-fundamentos-de-prompt-engineering)
-- [Episódio 1.6: Técnicas Avançadas de Prompting](./lessons/01-module/README.md#episodio-6-tecnicas-avancadas-de-prompting)
+- [Episódio 1.2: Episódio 1.2: Explorando Modelos Open-Source de IA](./lessons/01-module/README.md#episodio-2-explorando-modelos-open-source-de-ia)
+- [Episódio 1.3: Arquitetura de LLMs para Desenvolvedores](./lessons/01-module/README.md#episodio-2-arquitetura-de-llms-para-desenvolvedores)
+- [Episódio 1.4: Fundamentos Práticos de LLMs](./lessons/01-module/README.md#episodio-3-fundamentos-praticos-de-llms)
+- [Episódio 1.5: Navegando pelo Ecossistema de IA](./lessons/01-module/README.md#episodio-4-navegando-pelo-ecossistema-de-ia)  
+- [Episódio 1.6: Fundamentos de Prompt Engineering](./lessons/01-module/README.md#episodio-5-fundamentos-de-prompt-engineering)
+- [Episódio 1.7: Técnicas Avançadas de Prompting](./lessons/01-module/README.md#episodio-6-tecnicas-avancadas-de-prompting)
 
 </details>
 
@@ -126,19 +127,23 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 <details><summary><b>Módulo 3: Streaming e Integrações</b></summary>
 
-- [Fundamentos de Streaming em IA]()
-- [Chat com Streaming]()
-- [Implementando Filtros de Conteúdo]()
-- [Integração de Dados Customizados]()
+- [Fundamentos de Streaming em IA](#)  
+- [Chat com Streaming](#)  
+- [Streaming com WebSockets e Server-Sent Events](#)  
+- [Implementando Filtros de Conteúdo](#)  
+- [Integração de Dados Customizados](#)  
+- [Monitoramento de Fluxo de Dados em IA](#)  
 
 </details>
 
-<details><summary><b>Módulo 4: Assistant AI</b></summary>
+<details><summary><b>Módulo 4: Assistants AI</b></summary>
 
-- [TBI](#)
-- [TBI](#)
-- [TBI](#)
-- [TBI](#)
+- [Fundamentos de Assistants AI](#)  
+- [Criando Assistants AI com OpenAI](#)  
+- [Gerenciamento de Memória e Histórico de Conversas](#)  
+- [Implementação de Assistente com Ferramentas Customizadas](#)  
+- [Aprimorando Assistentes com APIs Externas](#)  
+- [Segurança e Controles de Acesso em Assistants](#)  
 
 </details>
 
@@ -146,15 +151,16 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 <details><summary><b>Módulo 5: RAG e Frameworks Avançados</b></summary>
 
-- [Fundamentos de RAG](#)
-- [Implementação Prática de RAG](#)
-- [LangChain.js Essencial](#)
-- [LangChain.js Avançado](#)
-- [Implementação Prática com LangChain.js](#)
-- [LlamaIndex.ts Essencial](#)
-- [LlamaIndex.ts Avançado](#)
-- [Implementação Prática com LlamaIndex.ts](#)
-- [Fine-tuning em Produção](#)
+- [Fundamentos de RAG](#)  
+- [Implementação Prática de RAG](#)  
+- [Armazenamento de Dados para RAG (Pinecone, Weaviate e Qdrant)](#)  
+- [LangChain.js Essencial](#)  
+- [LangChain.js Avançado](#)  
+- [Implementação Prática com LangChain.js](#)  
+- [LlamaIndex.ts Essencial](#)  
+- [LlamaIndex.ts Avançado](#)  
+- [Implementação Prática com LlamaIndex.ts](#)  
+- [Fine-tuning em Produção](#)  
 
 </details>
 
@@ -169,20 +175,22 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 <details><summary><b>Módulo 7: Produção e Segurança</b></summary>
 
-- [Segurança em Sistemas de IA](#)
-- [Privacidade e Ética](#)
-- [Performance e Escala](#)
-- [Monitoramento em Produção](#)
+- [Segurança em Sistemas de IA](#)  
+- [Privacidade e Ética](#)  
+- [Ataques Comuns e Como Mitigar (Prompt Injection, Jailbreak, Data Poisoning)](#)  
+- [Performance e Escala](#)  
+- [Monitoramento em Produção](#)  
 
 </details>
 
 <details><summary><b>Projeto Final: Sistema Completo</b></summary>
 
-- [Design e Arquitetura](#)
-- [Implementação de RAG](#)
-- [Integração de AI Agents](#)
-- [Deploy Seguro](#)
-- [Monitoramento e Otimização](#)
+- [Design e Arquitetura](#)  
+- [Implementação de RAG](#)  
+- [Integração de AI Agents](#)  
+- [Deploy Seguro](#)  
+- [Monitoramento e Otimização](#)  
+- [Testes e Debugging em Sistemas de IA](#)  
 
 </details>
 
@@ -205,11 +213,14 @@ Sempre que possível, utilizaremos **GitHub Copilot** para demonstrar como essa 
 Abaixo, você pode ver um diagrama que ilustra o fluxo do curso:
 
 ```mermaid
-graph LR
-    A[Fundamentals] --> B[LLM Architecture]
-    B --> C[Practical Applications]
-    C --> D[Advanced Features]
-    D --> E[Real-world Projects]
+graph TD
+    A[🧑‍🏫 Apresentação do Conceito] -->|📖 Explicação Teórica| B
+    B[🔍 Exemplos Explicativos] -->|📝 Código de Exemplo| C
+    C[⚡ Implementação Prática] -->|💻 Execução e Debugging| D
+    D[🎯 Projeto Aplicado] -->|🏗️ Construção de Aplicação Real| E
+    E[🛠️ Boas Práticas] -->|🚀 Otimização e Dicas| F
+    F[✅ Recapitulação e Tarefa] -->|🎓 Revisão + Exercício Opcional| G
+    G[📌 Próximos Passos] -->|➡️ Continuação no Próximo Módulo| A
 ```
 
 ## ❗️Links & Recursos Importantes
