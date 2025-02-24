@@ -75,6 +75,7 @@ Ao final deste módulo, você terá uma **base sólida para integrar IA em aplic
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-25)
   - [**Episódio 2.27: Melhores Práticas para IA em Produção**](#episódio-227-melhores-práticas-para-ia-em-produção)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-26)
+  - [🎯 Resumo do Módulo](#-resumo-do-módulo)
       
 
 ## 💻 Vídeos
@@ -805,6 +806,23 @@ Neste episódio, exploramos **as melhores práticas para colocar IA em produçã
 - **Melhores práticas de segurança** → Proteção contra **Prompt Injection, vazamento de dados e ataques comuns**.  
 - 
 Ao final deste episódio, você terá um **guia completo para colocar IA em produção** com segurança e eficiência.
+
+---
+
+## 🎯 Resumo do Módulo
+
+Parabéns por concluir o **Módulo 02 - Fundamentos Práticos**! 🚀 Agora você está preparado(a) para:
+
+✅ Desenvolver aplicações AI-first utilizando **TypeScript** e **Azure OpenAI**.  
+✅ Criar **Text Completions, Chat Completions e Processamento de Áudio**.  
+✅ Gerar imagens com **DALL-E** e analisar imagens com **Vision**.  
+✅ Trabalhar com **Embeddings e Busca Semântica** para melhorar a recuperação de informações.  
+✅ Conectar IA a **APIs externas com Function Calling** e explorar **modelos avançados de raciocínio (Reasoning Models)**.  
+✅ Criar respostas estruturadas com **Structured Outputs** e otimizar tempo com **Predicted Outputs**.  
+✅ **Colocar IA em produção**, garantindo **segurança, escalabilidade e otimização de custos**.  
+
+No próximo módulo, vamos avançar ainda mais e explorar **conceitos intermediários e técnicas avançadas** para tornar suas aplicações de IA ainda mais poderosas. 🚀🔥  
+
 
 
 
