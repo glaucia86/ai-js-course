@@ -53,6 +53,14 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-20)
   - [**Episódio 2.22: Reasoning - Implementação Prática**](#episódio-222-reasoning---implementação-prática)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-21)
+  - [**Episódio 2.23: Structured Outputs - Fundamentos Teóricos**](#episódio-223-structured-outputs---fundamentos-teóricos)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-22)
+  - [**Episódio 2.24: Structured Outputs - Implementação Prática**](#episódio-224-structured-outputs---implementação-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-23)
+  - [**Episódio 2.25: Predicted Outputs - Fundamentos Teóricos**](#episódio-225-predicted-outputs---fundamentos-teóricos)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-24)
+  - [**Episódio 2.26: Predicted Outputs - Implementação Prática**](#episódio-226-predicted-outputs---implementação-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-25)
       
 
 ## 💻 Vídeos
@@ -660,6 +668,108 @@ Neste episódio, aplicaremos os conceitos aprendidos anteriormente, **implementa
 - **Debug e Otimização** → Estratégias para **ajustar o reasoning_effort, otimizar performance e reduzir custos**.  
 
 Ao final deste episódio, você será capaz de **implementar modelos de raciocínio para resolver problemas complexos**, criando **soluções mais inteligentes e eficientes** em suas aplicações. 🚀  
+
+---
+
+## **Episódio 2.23: Structured Outputs - Fundamentos Teóricos**  
+
+- **Link do Vídeo**: [Episódio 2.23: Structured Outputs - Fundamentos Teóricos]()  
+- **Recursos**: [Recursos do Episódio 2.23: Structured Outputs - Fundamentos Teóricos](./resources/23-resources.md)  
+
+Neste episódio, exploraremos os **fundamentos dos Structured Outputs** no **Azure OpenAI Service**, compreendendo **como garantir que o modelo gere respostas que sigam um formato predefinido, como JSON Schema**.  
+
+### 📌 O que você aprenderá?  
+
+- **O que são Structured Outputs?** → Como essa técnica assegura que a saída do modelo siga um **JSON Schema estruturado**.  
+
+- **Diferença entre JSON Mode e Structured Outputs** → Por que **Structured Outputs** são mais confiáveis para garantir a formatação correta dos dados.  
+
+- **Arquitetura e Funcionamento** → Como definir **esquemas de saída personalizados**, garantindo que o modelo preencha corretamente os campos esperados.  
+
+- **Casos de Uso** → Aplicações reais, como:  
+  - **Extração de dados estruturados** de textos.  
+  - **Integração com bancos de dados e APIs**.  
+  - **Geração de respostas em formato padronizado para automação**.  
+
+- **Boas Práticas** → Estratégias para **validação de saídas, otimização de custos e implementação segura**.  
+
+Ao final deste episódio, você terá um entendimento sólido sobre **como Structured Outputs melhoram a previsibilidade e confiabilidade das respostas da IA**, preparando-se para a implementação prática no próximo episódio. 🚀  
+
+---
+
+## **Episódio 2.24: Structured Outputs - Implementação Prática**  
+
+- **Link do Vídeo**: [Episódio 2.24: Structured Outputs - Implementação Prática]()  
+- **Recursos**: [Recursos do Episódio 2.24: Structured Outputs - Implementação Prática](./resources/24-resources.md)  
+
+Neste episódio, aplicaremos os conceitos aprendidos anteriormente, **implementando Structured Outputs em aplicações TypeScript/JavaScript**, garantindo que as respostas da IA estejam sempre no formato esperado.  
+
+### 📌 O que você aprenderá?  
+
+- **Setup do Ambiente** → Como configurar um **projeto TypeScript** para consumir a API do **Azure OpenAI Structured Outputs**.  
+
+- **Criação de um JSON Schema** → Como definir um **esquema personalizado** para estruturar as saídas da IA.  
+
+- **Uso do SDK do Azure OpenAI** → Como configurar o **response_format** para forçar saídas estruturadas.  
+
+- **Casos de Uso Práticos** → Implementação de:  
+  - **Extração de dados em JSON de textos livres**.  
+  - **Automação de preenchimento de formulários com IA**.  
+  - **Respostas estruturadas para integração com APIs**.  
+
+- **Otimização e Performance** → Estratégias para **reduzir custos e melhorar a eficiência na geração de Structured Outputs**.  
+
+Ao final deste episódio, você será capaz de **configurar e utilizar Structured Outputs para garantir respostas padronizadas e confiáveis**, facilitando integrações com outros sistemas. 
+
+---
+
+## **Episódio 2.25: Predicted Outputs - Fundamentos Teóricos**  
+
+- **Link do Vídeo**: [Episódio 2.25: Predicted Outputs - Fundamentos Teóricos]()  
+- **Recursos**: [Recursos do Episódio 2.25: Predicted Outputs - Fundamentos Teóricos](./resources/25-resources.md)  
+
+Neste episódio, exploramos os **fundamentos dos Predicted Outputs** no **Azure OpenAI Service**, entendendo **como essa técnica reduz a latência em respostas onde grande parte do conteúdo já é conhecida**.  
+
+### 📌 O que você aprenderá?  
+
+- **O que são Predicted Outputs?** → Como o modelo pode utilizar **predições para acelerar respostas**, especialmente em **edição de código e textos predefinidos**.  
+
+- **Arquitetura e Funcionamento** → Como os **tokens de predição aceitos e rejeitados** influenciam desempenho e custo.  
+
+- **Casos de Uso** → Aplicações reais, como:  
+  - **Refatoração de código**.  
+  - **Edição automatizada de documentos**.  
+  - **Correção de erros e sugestões em tempo real**.  
+
+- **Boas Práticas** → Como balancear **latência e custo**, evitando desperdício de tokens em predições rejeitadas.  
+
+Ao final deste episódio, você terá uma compreensão clara sobre **como Predicted Outputs podem melhorar a velocidade de resposta da IA**, preparando-se para a implementação prática no próximo episódio. 
+
+---
+
+## **Episódio 2.26: Predicted Outputs - Implementação Prática**  
+
+- **Link do Vídeo**: [Episódio 2.26: Predicted Outputs - Implementação Prática]()  
+- **Recursos**: [Recursos do Episódio 2.26: Predicted Outputs - Implementação Prática](./resources/26-resources.md)  
+
+Neste episódio, aplicaremos os conceitos aprendidos anteriormente, **implementando Predicted Outputs em aplicações TypeScript/JavaScript** para melhorar a eficiência na geração de respostas.  
+
+### 📌 O que você aprenderá?  
+
+- **Setup do Ambiente** → Como configurar um **projeto TypeScript** para consumir a API do **Azure OpenAI Predicted Outputs**.  
+
+- **Definição de Predições** → Como indicar **qual parte da resposta já é conhecida** para reduzir latência.  
+
+- **Uso do SDK do Azure OpenAI** → Como configurar o **prediction parameter** para otimizar respostas do modelo.  
+
+- **Casos de Uso Práticos** → Implementação de:  
+  - **Correção automática de código com menor latência**.  
+  - **Edição e formatação de textos predefinidos**.  
+  - **Autocompletar inteligente baseado em contexto**.  
+
+- **Otimização e Performance** → Estratégias para **equilibrar latência e custo, garantindo que a predição reduza tempo sem aumentar gastos**.  
+
+Ao final deste episódio, você será capaz de **implementar Predicted Outputs para acelerar respostas do modelo em cenários de edição e geração de código/texto**, tornando as interações com IA mais ágeis e eficientes.  
 
 ---
 
