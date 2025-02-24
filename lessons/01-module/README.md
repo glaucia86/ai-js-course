@@ -7,25 +7,33 @@ Aqui você encontrará todos os vídeos, explicações detalhadas e exemplos pr�
 - [🚀 Módulo 01 - Introdução à Inteligência Artificial](#-módulo-01---introdução-à-inteligência-artificial)
   - [📑 Índice](#-índice)
   - [💻 Vídeos](#-vídeos)
-    - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](#episódio-11-o-jogo-mudou---a-revolução-da-ia)
-    - [Episódio 1.2: Arquitetura de LLMs para Desenvolvedores(as)](#episódio-12-arquitetura-de-llms-para-desenvolvedoresas)
-    - [Episódio 1.3: Fundamentos práticos de LLMs](#episódio-13-fundamentos-práticos-de-llms)
-    - [Episódio 1.4: Navegando pelo Ecossistema de IA](#episódio-14-navegando-pelo-ecossistema-de-ia)
-    - [Episódio 1.5: Fundamentos de Prompt Engineering](#episódio-15-fundamentos-de-prompt-engineering)
-  - [Episódio 6: Técnicas Avançadas de Prompting](#episódio-6-técnicas-avançadas-de-prompting)
+  - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](#episódio-11-o-jogo-mudou---a-revolução-da-ia)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre)
+  - [**Episódio 1.2: Explorando Modelos Open-Source de IA**](#episódio-12-explorando-modelos-open-source-de-ia)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-1)
+  - [Episódio 1.3: Arquitetura de LLMs para Desenvolvedores(as)](#episódio-13-arquitetura-de-llms-para-desenvolvedoresas)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-2)
+  - [Episódio 1.4: Fundamentos práticos de LLMs](#episódio-14-fundamentos-práticos-de-llms)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-3)
+  - [Episódio 1.5: Navegando pelo Ecossistema de IA](#episódio-15-navegando-pelo-ecossistema-de-ia)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-4)
+  - [Episódio 1.6: Fundamentos de Prompt Engineering](#episódio-16-fundamentos-de-prompt-engineering)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-5)
+  - [Episódio 7: Técnicas Avançadas de Prompting](#episódio-7-técnicas-avançadas-de-prompting)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-6)
   - [🛠️ Recursos e Materiais de Apoio](#️-recursos-e-materiais-de-apoio)
-    - [📌 O que você encontrará em cada episódio:](#-o-que-você-encontrará-em-cada-episódio)
+    - [**📌 Você aprenderá sobre**:](#-você-aprenderá-sobre-7)
 
 ## 💻 Vídeos
 
-### Episódio 1.1: O Jogo Mudou - A Revolução da IA  
+## Episódio 1.1: O Jogo Mudou - A Revolução da IA  
 
 - **Link do Vídeo**: [Episódio 1: O Jogo Mudou - A Revolução da IA]()  
 - **Recursos**: [Recursos do Episódio 1: O Jogo Mudou - A Revolução da IA](./resources/01-resources.md)  
 
 Neste episódio, exploramos o impacto transformador da Inteligência Artificial no desenvolvimento de software e como isso afeta diretamente a vida dos desenvolvedores JavaScript/TypeScript.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:  
 
 - **A revolução da IA no desenvolvimento de software** → Como a IA está redefinindo fluxos de trabalho, automatizando tarefas e ampliando as capacidades dos desenvolvedores.  
   
@@ -40,14 +48,51 @@ Ao final deste episódio, você terá uma visão clara do **novo papel do desenv
 
 ---
 
-### Episódio 1.2: Arquitetura de LLMs para Desenvolvedores(as)  
+Aqui está a versão revisada do episódio, agora incluindo o **modelo Phi** como uma alternativa leve e eficiente:
+
+---
+
+## **Episódio 1.2: Explorando Modelos Open-Source de IA**  
+
+- **Link do Vídeo**: [Episódio 1.2: Explorando Modelos Open-Source de IA]()  
+- **Recursos**: [Recursos do Episódio 1.2: Explorando Modelos Open-Source de IA](./resources/02-resources.md)  
+
+Neste episódio, exploraremos os **modelos open-source de Inteligência Artificial** e como eles oferecem uma alternativa viável às APIs pagas, permitindo maior controle, flexibilidade e experimentação sem custos iniciais.  
+
+### **📌 Você aprenderá sobre**:  
+
+- **Por que utilizar modelos Open-Source?**  
+  - Evita dependência de provedores pagos e permite execução local.  
+  - Oferece maior controle sobre privacidade e personalização dos modelos.  
+  - Facilita experimentação e aprendizado sem barreiras financeiras.  
+
+- **Principais modelos Open-Source disponíveis**  
+  - **Mistral 7B** → Modelo compacto, eficiente e comparável ao GPT-3.5.  
+  - **Llama 3** → Modelo desenvolvido pela Meta, otimizado para diversos cenários.  
+  - **Gemma (Google DeepMind)** → Alternativa leve com foco em eficiência e acessibilidade.  
+  - **Phi** → Modelo desenvolvido pela Microsoft, com foco em **eficiência computacional** e **baixa exigência de hardware**, ideal para experimentação local.  
+
+- **Como utilizar modelos Open-Source?**  
+  - Modelos podem ser executados **localmente** ou **na nuvem**, dependendo da necessidade.  
+  - Ferramentas como **Ollama** e **Hugging Face** permitem carregar e testar modelos rapidamente.  
+  - Comparação entre **rodar localmente** vs. **usar uma API gerenciada**.  
+
+- **Quando escolher Open-Source vs. Modelos Proprietários (OpenAI, Azure, etc.)?**  
+  - **Modelos Open-Source** → Ideais para quem precisa de controle total, personalização e execução local.  
+  - **Modelos Proprietários** → Melhor escolha para quem busca facilidade de uso, desempenho otimizado e acesso a recursos avançados como **Function Calling e multimodalidade**.  
+
+Ao final deste episódio, você entenderá as vantagens e limitações dos **modelos Open-Source**, além de saber **quando utilizá-los em projetos reais**.
+
+---
+
+## Episódio 1.3: Arquitetura de LLMs para Desenvolvedores(as)  
 
 - **Link do Vídeo**: [Episódio 2: Arquitetura de LLMs para Desenvolvedores]()  
 - **Recursos**: [Recursos do Episódio 2: Arquitetura de LLMs para Desenvolvedores](./resources/02-resource.md)  
 
 Neste episódio, exploramos a arquitetura dos **Large Language Models (LLMs)** com um foco prático para desenvolvedores(as). Compreender como esses modelos funcionam sob o capô é essencial para integrá-los de forma eficiente em aplicações JavaScript/TypeScript.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:  
 
 - **Fundamentos de Transformers para desenvolvedores** → Como os Transformers revolucionaram o processamento de linguagem natural (NLP) e por que são a base dos LLMs modernos.
   
@@ -63,14 +108,14 @@ Ao final deste episódio, você terá um entendimento técnico sólido sobre com
 
 ---
 
-### Episódio 1.3: Fundamentos práticos de LLMs  
+## Episódio 1.4: Fundamentos práticos de LLMs  
 
 - **Link do Vídeo**: [Episódio 3: Fundamentos práticos de LLMs]()  
 - **Recursos**: [Recursos do Episódio 3: Fundamentos práticos de LLMs](./resources/03-resource.md)  
 
 Neste episódio, faremos uma imersão nos **aspectos práticos dos Large Language Models (LLMs)**, entendendo como esses modelos processam e geram texto, além de como otimizar seu uso em aplicações JavaScript/TypeScript.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:  
 
 - **Como os LLMs processam e geram texto** → A mecânica por trás da previsão de tokens e como os modelos transformam entradas textuais em respostas coerentes.
   
@@ -88,14 +133,14 @@ Ao final deste episódio, você terá uma compreensão prática sobre **como os 
 
 ---
 
-### Episódio 1.4: Navegando pelo Ecossistema de IA  
+## Episódio 1.5: Navegando pelo Ecossistema de IA  
 
 - **Link do Vídeo**: [Episódio 4: Navegando pelo Ecossistema de IA]()  
 - **Recursos**: [Recursos do Episódio 4: Navegando pelo Ecossistema de IA](./resources/04-resource.md)  
 
 Neste episódio, exploraremos o **ecossistema de Inteligência Artificial**, comparando diferentes provedores e modelos disponíveis para desenvolvedores JavaScript/TypeScript. Nosso objetivo é ajudar você a escolher a solução mais adequada para cada tipo de projeto.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:  
 
 - **Panorama dos principais provedores de IA** → Visão geral das principais plataformas disponíveis, incluindo **Azure OpenAI, OpenAI API, Hugging Face, Mistral AI, Llama e outros modelos open-source**.
    
@@ -111,14 +156,14 @@ Ao final deste episódio, você terá uma visão clara sobre o **ecossistema atu
 
 ---
 
-### Episódio 1.5: Fundamentos de Prompt Engineering  
+## Episódio 1.6: Fundamentos de Prompt Engineering  
 
 - **Link do Vídeo**: [Episódio 5: Fundamentos de Prompt Engineering]()  
 - **Recursos**: [Recursos do Episódio 5: Fundamentos de Prompt Engineering](./resources/05-resource.md)  
 
 Neste episódio, exploraremos as **técnicas essenciais de Prompt Engineering**, um dos aspectos mais importantes ao trabalhar com **Large Language Models (LLMs)**. Criar prompts eficazes pode significar a diferença entre um modelo útil e um que gera respostas imprecisas ou inconsistentes.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:   
 
 - **Princípios fundamentais de Prompt Engineering** → O que é engenharia de prompts, por que ela é essencial e como influenciar a qualidade das respostas dos modelos de IA.
    
@@ -134,14 +179,14 @@ Ao final deste episódio, você terá um entendimento sólido de **como estrutur
 
 ---
 
-## Episódio 6: Técnicas Avançadas de Prompting  
+## Episódio 7: Técnicas Avançadas de Prompting  
 
 - **Link do Vídeo**: [Episódio 6: Técnicas Avançadas de Prompting]()  
 - **Recursos**: [Recursos do Episódio 6: Técnicas Avançadas de Prompting](./resources/06-resource.md)  
 
 Neste episódio, exploraremos **técnicas avançadas de Prompt Engineering**, essenciais para desenvolver aplicações **mais inteligentes, adaptáveis e interativas**. Compreender essas abordagens permite criar **experiências mais naturais e dinâmicas** ao integrar LLMs em projetos TypeScript.  
 
-Você aprenderá sobre:  
+### **📌 Você aprenderá sobre**:  
 
 - **Prompting Iterativo** → Como refinar as respostas do modelo em tempo real, ajustando entradas progressivamente para melhorar a precisão.
   
@@ -159,7 +204,7 @@ Ao final deste episódio, você terá domínio sobre técnicas avançadas de pro
 
 Para garantir que você tenha a melhor experiência de aprendizado, cada episódio contará com uma variedade de recursos para facilitar o entendimento e a aplicação prática dos conceitos abordados.  
 
-### 📌 O que você encontrará em cada episódio:  
+### **📌 Você aprenderá sobre**:  
 
 ✅ **Código-fonte completo** → Exemplos práticos e bem estruturados para facilitar a implementação em seus próprios projetos.
 

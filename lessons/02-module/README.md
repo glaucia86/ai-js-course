@@ -1,6 +1,18 @@
 # 🛠️ Módulo 02:  Nível Básico: Fundamentos Práticos
 
-Este módulo foca na aplicação prática dos conceitos teóricos aprendidos anteriormente, permitindo que você construa uma base sólida para desenvolvimento com IA.
+Este módulo é totalmente focado na **implementação prática da IA com TypeScript**, permitindo que você desenvolva aplicações AI-first com as melhores práticas do mercado.  
+
+📌 **O que será abordado neste módulo?**  
+
+✅ **Configuração do ambiente** para rodar aplicações de IA.  
+✅ **Text Completions e Chat Completions** para criar assistentes de IA.  
+✅ **Geração de Imagens** com DALL-E e **Vision** para processar imagens.  
+✅ **Processamento de Áudio** para **Text-to-Speech e Speech-to-Text**.  
+✅ **Embeddings e Busca Semântica** para otimizar pesquisas com IA.  
+✅ **Function Calling e Raciocínio (Reasoning)** para conectar IA a APIs externas.  
+✅ **Structured Outputs e Predicted Outputs** para estruturar melhor as respostas da IA.  
+
+Ao final deste módulo, você terá uma **base sólida para integrar IA em aplicações reais** utilizando as APIs do Azure OpenAI e modelos avançados de IA.
 
 ## 📑 Índice
 
@@ -61,6 +73,8 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-24)
   - [**Episódio 2.26: Predicted Outputs - Implementação Prática**](#episódio-226-predicted-outputs---implementação-prática)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-25)
+  - [**Episódio 2.27: Melhores Práticas para IA em Produção**](#episódio-227-melhores-práticas-para-ia-em-produção)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-26)
       
 
 ## 💻 Vídeos
@@ -293,7 +307,7 @@ Ao final deste episódio, você terá um entendimento sólido sobre **como gerar
 ## **Episódio 2.8: Implementando DALL-E na Prática**  
 
 - **Link do Vídeo**: [Episódio 2.8: Implementando DALL-E na Prática]()  
-- **Recursos**: [Recursos do Episódio 2.8: Implementando DALL-E na Prática](./resources/08-resources.md)  
+- **Recursos**: [Recursos do Episódio 2.8: Implementação Prática de DALL-E (Parte 2)](./resources/08-resources.md)  
 
 Neste episódio, **implementaremos a API do DALL-E** no **Azure OpenAI Service**, utilizando **TypeScript** para gerar imagens com base em prompts textuais. O objetivo é demonstrar como configurar e executar chamadas para criação de imagens, garantindo um fluxo funcional e eficiente.  
 
@@ -773,9 +787,24 @@ Ao final deste episódio, você será capaz de **implementar Predicted Outputs p
 
 ---
 
+## **Episódio 2.27: Melhores Práticas para IA em Produção**
 
+- **Link do Vídeo**: [Episódio 2.27: Melhores Práticas para IA em Produção]()
+- **Recursos**: [Recursos do Episódio 2.27: Melhores Práticas para IA em Produção](./resources/27-resources.md)
 
+Neste episódio, exploramos **as melhores práticas para colocar IA em produção** e garantir um sistema seguro, otimizado e econômico.
 
+### 📌 O que você aprenderá?
+
+- **Como reduzir custos em APIs de IA** → Estratégias para evitar desperdício de tokens e otimizar chamadas.
+  
+- **Armazenamento inteligente de respostas da IA** → Como utilizar **cache e bancos de dados vetoriais** para reutilizar respostas e embeddings.
+  
+- **Monitoramento de uso** → Como medir o consumo da API, detectar erros e otimizar performance.
+  
+- **Melhores práticas de segurança** → Proteção contra **Prompt Injection, vazamento de dados e ataques comuns**.  
+- 
+Ao final deste episódio, você terá um **guia completo para colocar IA em produção** com segurança e eficiência.
 
 
 
