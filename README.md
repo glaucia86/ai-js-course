@@ -78,6 +78,8 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 > [!NOTE]
 > _A ser lançado em breve. Segunda semana de Março de 2025 (módulo 1)._
 
+## Nível Básico
+
 <details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
 
 - [Episódio 1.1: O Jogo Mudou - A Revolução da IA](./lessons/01-module/README.md#episodio-1-o-jogo-mudou---a-revolucao-da-ia)
@@ -95,6 +97,92 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 - [Episódio 2.2: Fundamentos do Azure OpenAI SDK](./lessons/02-module/README.md#episodio-2-fundamentos-do-azure-openai-sdk)
 - [Episódio 2.3: Text Completions Fundamentais](./lessons/02-module/README.md#episodio-3-text-completions-fundamentais)
 - [Episódio 2.4: Executando os Exemplos de Text Completions](./lessons/02-module/README.md#episodio-4-executando-os-exemplos)
+- [Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI](./lessons/02-module/README.md#episodio-5-fundamentos-do-gerenciamento-de-respostas-da-azure-openai)
+- [Episódio 2.6: Implementando o Gerenciamento de Respostas](./lessons/02-module/README.md#episodio-6-implementando-o-gerenciamento-de-respostas)
+- [Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E](./lessons/02-module/README.md#episodio-7-fundamentos-da-geracao-de-imagens-com-dall-e)
+- [Episódio 2.8: Implementando DALL-E na Prática](./lessons/02-module/README.md#episodio-8-implementando-dall-e-na-pratica)
+- [Episódio 2.9: Processamento de Áudio - Fundamentos](./lessons/02-module/README.md#episodio-9-processamento-de-audio---fundamentos)
+- [Episódio 2.10: Implementação Prática de Processamento de Áudio](./lessons/02-module/README.md#episodio-10-implementacao-pratica-de-processamento-de-audio)
+- [Episódio 2.11: Os Fundamentos do Text-to-Speech](./lessons/02-module/README.md#episodio-11-os-fundamentos-do-text-to-speech)
+- [Episódio 2.12: Implementação Prática de Text-to-Speech](./lessons/02-module/README.md#episodio-12-implementacao-pratica-de-text-to-speech)
+- [Episódio 2.13: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper](./lessons/02-module/README.md#episodio-13-speech-to-text-com-azure-openai---fundamentos-do-modelo-whisper)
+- [Episódio 2.14: Implementação Prática de Speech-to-Text com Whisper](./lessons/02-module/README.md#episodio-14-implementacao-pratica-de-speech-to-text-com-whisper)
+- [Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI](./lessons/02-module/README.md#episodio-15-fundamentos-de-embeddings-com-azure-openai)
+- [Episódio 2.16: Implementação Prática de Embeddings](./lessons/02-module/README.md#episodio-16-implementacao-pratica-de-embeddings)
+- [Episódio 2.17: Vision - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-17-vision---fundamentos-teoricos)
+- [Episódio 2.18: Vision - Implementação Prática](./lessons/02-module/README.md#episodio-18-vision---implementacao-pratica)
+- [Episódio 2.19: Function Calling - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-19-function-calling---fundamentos-teoricos)
+- [Episódio 2.20: Function Calling - Implementação Prática](./lessons/02-module/README.md#episodio-20-function-calling---implementacao-pratica)
+- [Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio](./lessons/02-module/README.md#episodio-21-reasoning---fundamentos-dos-modelos-de-raciocinio)
+- [Episódio 2.22: Reasoning - Implementação Prática](./lessons/02-module/README.md#episodio-22-reasoning---implementacao-pratica)
+- [Episódio 2.23: Structured Outputs - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-23-structured-outputs---fundamentos-teoricos)
+- [Episódio 2.24: Structured Outputs - Implementação Prática](./lessons/02-module/README.md#episodio-24-structured-outputs---implementacao-pratica)
+- [Episódio 2.25: Predicted Outputs - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-25-predicted-outputs---fundamentos-teoricos)
+- [Episódio 2.26: Predicted Outputs - Implementação Prática](./lessons/02-module/README.md#episodio-26-predicted-outputs---implementacao-pratica)
+
+</details>
+
+## Nível Intermediário: Aplicações Práticas
+
+<details><summary><b>Módulo 3: Streaming e Integrações</b></summary>
+
+- [Fundamentos de Streaming em IA]()
+- [Chat com Streaming]()
+- [Implementando Filtros de Conteúdo]()
+- [Integração de Dados Customizados]()
+
+</details>
+
+<details><summary><b>Módulo 4: Assistant AI</b></summary>
+
+- [TBI](#)
+- [TBI](#)
+- [TBI](#)
+- [TBI](#)
+
+</details>
+
+## Nível Avançado: Sistemas Complexos
+
+<details><summary><b>Módulo 5: RAG e Frameworks Avançados</b></summary>
+
+- [Fundamentos de RAG](#)
+- [Implementação Prática de RAG](#)
+- [LangChain.js Essencial](#)
+- [LangChain.js Avançado](#)
+- [Implementação Prática com LangChain.js](#)
+- [LlamaIndex.ts Essencial](#)
+- [LlamaIndex.ts Avançado](#)
+- [Implementação Prática com LlamaIndex.ts](#)
+- [Fine-tuning em Produção](#)
+
+</details>
+
+<details><summary><b>Módulo 6: AI Agents e Automação</b></summary>
+
+- [Arquitetura de AI Agents](#)
+- [Function Calling na Prática](#)
+- [Code Interpreter](#)
+- [Projeto com AI Agents](#)
+
+</details>
+
+<details><summary><b>Módulo 7: Produção e Segurança</b></summary>
+
+- [Segurança em Sistemas de IA](#)
+- [Privacidade e Ética](#)
+- [Performance e Escala](#)
+- [Monitoramento em Produção](#)
+
+</details>
+
+<details><summary><b>Projeto Final: Sistema Completo</b></summary>
+
+- [Design e Arquitetura](#)
+- [Implementação de RAG](#)
+- [Integração de AI Agents](#)
+- [Deploy Seguro](#)
+- [Monitoramento e Otimização](#)
 
 </details>
 
