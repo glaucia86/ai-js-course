@@ -49,6 +49,10 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-18)
   - [**Episódio 2.20: Function Calling - Implementação Prática**](#episódio-220-function-calling---implementação-prática)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-19)
+  - [**Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio**](#episódio-221-reasoning---fundamentos-dos-modelos-de-raciocínio)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-20)
+  - [**Episódio 2.22: Reasoning - Implementação Prática**](#episódio-222-reasoning---implementação-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-21)
       
 
 ## 💻 Vídeos
@@ -176,7 +180,7 @@ Ao final deste episódio, você será capaz de **implementar e otimizar Text Com
 - **Link do Vídeo**: [Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI]()  
 - **Recursos**: [Recursos do Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI](./resources/05-resources.md)  
 
-Neste episódio, exploramos **como a API da Azure OpenAI estrutura suas respostas**, quais são seus principais componentes e as melhores práticas para **validar, tratar erros e otimizar** o processamento dessas respostas. Entender esses conceitos é essencial para **garantir qualidade, eficiência e segurança na integração de IA em aplicações JavaScript/TypeScript**.  
+Neste episódio, exploraremos **como a API da Azure OpenAI estrutura suas respostas**, quais são seus principais componentes e as melhores práticas para **validar, tratar erros e otimizar** o processamento dessas respostas. Entender esses conceitos é essencial para **garantir qualidade, eficiência e segurança na integração de IA em aplicações JavaScript/TypeScript**.  
 
 ### 📌 O que você aprenderá?
 
@@ -312,7 +316,7 @@ Aqui estão os episódios 2.9 e 2.10 reestruturados conforme o modelo desejado:
 - **Link do Vídeo**: [Episódio 2.9: Processamento de Áudio - Fundamentos]()  
 - **Recursos**: [Recursos do Episódio 2.9: Processamento de Áudio - Fundamentos](./resources/09-resources.md)  
 
-Neste episódio, exploramos os **fundamentos do processamento de áudio** com **Azure OpenAI Service**, compreendendo **como a API lida com entrada e saída de áudio, suas capacidades e as melhores práticas** para aplicações de IA.  
+Neste episódio, exploraremos os **fundamentos do processamento de áudio** com **Azure OpenAI Service**, compreendendo **como a API lida com entrada e saída de áudio, suas capacidades e as melhores práticas** para aplicações de IA.  
 
 ### 📌 O que você aprenderá?  
 
@@ -370,7 +374,7 @@ Ao final deste episódio, você terá um sistema funcional capaz de **converter 
 - **Link do Vídeo**: [Episódio 2.11: Text-to-Speech - Fundamentos]()  
 - **Recursos**: [Recursos do Episódio 2.11: Text-to-Speech - Fundamentos](./resources/11-resources.md)  
 
-Neste episódio, exploramos os **fundamentos do Text-to-Speech (TTS)** utilizando o **Azure OpenAI Service**. Compreenderemos **como o sistema converte texto em áudio**, suas capacidades, limitações e melhores práticas para integração em aplicações de IA.  
+Neste episódio, exploraremos os **fundamentos do Text-to-Speech (TTS)** utilizando o **Azure OpenAI Service**. Compreenderemos **como o sistema converte texto em áudio**, suas capacidades, limitações e melhores práticas para integração em aplicações de IA.  
 
 ### 📌 O que você aprenderá?  
 
@@ -412,7 +416,7 @@ Ao final deste episódio, você terá um sistema funcional para **converter text
 - **Link do Vídeo**: [Episódio 2.12: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper]()  
 - **Recursos**: [Recursos do Episódio 2.12: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper](./resources/12-resources.md)  
 
-Neste episódio, exploramos os **fundamentos do Speech-to-Text (STT)** utilizando o **modelo Whisper no Azure OpenAI Service**. Compreenderemos **como o modelo funciona, suas capacidades, limitações e melhores práticas** para obter transcrições precisas e eficientes.  
+Neste episódio, exploraremos os **fundamentos do Speech-to-Text (STT)** utilizando o **modelo Whisper no Azure OpenAI Service**. Compreenderemos **como o modelo funciona, suas capacidades, limitações e melhores práticas** para obter transcrições precisas e eficientes.  
 
 ### 📌 O que você aprenderá?  
 
@@ -460,7 +464,7 @@ Ao final deste episódio, você terá um sistema funcional para **converter áud
 - **Link do Vídeo**: [Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI]()  
 - **Recursos**: [Recursos do Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI](./resources/15-resources.md)  
 
-Neste episódio, exploramos os **conceitos fundamentais de embeddings**, sua aplicação no **processamento de linguagem natural (NLP)** e como utilizá-los no **Azure OpenAI Service**.  
+Neste episódio, exploraremos os **conceitos fundamentais de embeddings**, sua aplicação no **processamento de linguagem natural (NLP)** e como utilizá-los no **Azure OpenAI Service**.  
 
 ### 📌 O que você aprenderá?  
 
@@ -506,7 +510,7 @@ Ao final deste episódio, você será capaz de **gerar, armazenar e utilizar emb
 - **Link do Vídeo**: [Episódio 2.17: Vision - Fundamentos Teóricos]()  
 - **Recursos**: [Recursos do Episódio 2.17: Vision - Fundamentos Teóricos](./resources/17-resources.md)  
 
-Neste episódio, exploramos os **conceitos fundamentais da visão computacional** no **Azure OpenAI Service**, compreendendo **como os modelos processam imagens e sua aplicação em cenários reais**.  
+Neste episódio, exploraremos os **conceitos fundamentais da visão computacional** no **Azure OpenAI Service**, compreendendo **como os modelos processam imagens e sua aplicação em cenários reais**.  
 
 ### 📌 O que você aprenderá?  
 
@@ -554,7 +558,7 @@ Ao final deste episódio, você será capaz de **processar imagens via API do Az
 - **Link do Vídeo**: [Episódio 2.19: Function Calling - Fundamentos Teóricos]()  
 - **Recursos**: [Recursos do Episódio 2.19: Function Calling - Fundamentos Teóricos](./resources/19-resources.md)  
 
-Neste episódio, exploramos os **fundamentos do Function Calling no Azure OpenAI Service**, compreendendo **como expandir as capacidades dos modelos de IA permitindo que eles interajam com funções personalizadas de forma segura e eficiente**.  
+Neste episódio, exploraremos os **fundamentos do Function Calling no Azure OpenAI Service**, compreendendo **como expandir as capacidades dos modelos de IA permitindo que eles interajam com funções personalizadas de forma segura e eficiente**.  
 
 ### 📌 O que você aprenderá?  
 
@@ -579,7 +583,7 @@ Ao final deste episódio, você terá um entendimento sólido sobre **como Funct
 - **Link do Vídeo**: [Episódio 2.20: Function Calling - Implementação Prática]()  
 - **Recursos**: [Recursos do Episódio 2.20: Function Calling - Implementação Prática](./resources/20-resources.md)  
 
-Neste episódio, aplicamos os conceitos aprendidos anteriormente, **implementando Function Calling em aplicações TypeScript/JavaScript** para permitir que modelos de IA chamem funções externas de forma eficiente.  
+Neste episódio, aplicaremos os conceitos aprendidos anteriormente, **implementando Function Calling em aplicações TypeScript/JavaScript** para permitir que modelos de IA chamem funções externas de forma eficiente.  
 
 ### 📌 O que você aprenderá?  
 
@@ -602,6 +606,63 @@ Neste episódio, aplicamos os conceitos aprendidos anteriormente, **implementand
 Ao final deste episódio, você terá um sistema funcional onde **um modelo de IA pode interagir com funções personalizadas**, permitindo **integrações seguras e eficientes com sistemas externos**. 
 
 ---
+
+## **Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio**  
+
+- **Link do Vídeo**: [Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio]()  
+- **Recursos**: [Recursos do Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio](./resources/21-resources.md)  
+
+Neste episódio, exploraremos os **fundamentos dos modelos de raciocínio (Reasoning Models)** do **Azure OpenAI Service**, compreendendo como esses modelos processam informações de maneira estruturada para gerar respostas mais avançadas e precisas.  
+
+### 📌 O que você aprenderá?  
+
+- **O que são os Modelos de Raciocínio?** → Como os **modelos O-series** utilizam reforço de aprendizado para realizar raciocínio complexo.  
+
+- **Arquitetura e Funcionamento** → Como esses modelos **"pensam antes de responder"**, criando uma **cadeia interna de raciocínio**.  
+
+- **Tipos de Tokens e Impacto no Custo** → Diferença entre **tokens de entrada, saída e raciocínio**, e como otimizá-los.  
+
+- **Reasoning Effort** → Como configurar o **esforço de raciocínio** (baixo, médio, alto) e seus impactos na qualidade e performance.  
+
+- **Janela de Contexto** → Estratégias para gerenciar **o tamanho da janela de contexto, alocação de tokens e otimização de custos**.  
+
+- **Casos de Uso** → Aplicações reais dos modelos de raciocínio, como:  
+  - **Resolução complexa de problemas**  
+  - **Geração de código e refatoração**  
+  - **Raciocínio científico e planejamento multietapas**  
+
+Ao final deste episódio, você terá uma compreensão clara de **como funcionam os modelos de raciocínio no Azure OpenAI** e como usá-los de maneira eficiente para resolver problemas complexos. 🚀  
+
+---
+
+## **Episódio 2.22: Reasoning - Implementação Prática**  
+
+- **Link do Vídeo**: [Episódio 2.22: Reasoning - Implementação Prática]()  
+- **Recursos**: [Recursos do Episódio 2.22: Reasoning - Implementação Prática](./resources/22-resources.md)  
+
+Neste episódio, aplicaremos os conceitos aprendidos anteriormente, **implementando modelos de raciocínio (Reasoning Models) em aplicações TypeScript/JavaScript**, utilizando **o SDK do Azure OpenAI**.  
+
+### 📌 O que você aprenderá?  
+
+- **Setup do Ambiente** → Como configurar um **projeto TypeScript** e integrar o SDK do **Azure OpenAI Service**.  
+
+- **Criação de Requisições de Reasoning** → Como estruturar chamadas para os modelos **O-series** de forma eficiente.  
+
+- **Prompting Efetivo** → Como **estruturar prompts para maximizar a capacidade de raciocínio do modelo**.  
+
+- **Gerenciamento de Tokens e Custos** → Estratégias para **controle da janela de contexto, redução de custos e uso eficiente de tokens**.  
+
+- **Aplicações Práticas** → Desenvolvimento de:  
+  - **Sistemas de validação de dados**  
+  - **Geração de código com análise contextual**  
+  - **Análises e planejamento estratégico multietapas**  
+
+- **Debug e Otimização** → Estratégias para **ajustar o reasoning_effort, otimizar performance e reduzir custos**.  
+
+Ao final deste episódio, você será capaz de **implementar modelos de raciocínio para resolver problemas complexos**, criando **soluções mais inteligentes e eficientes** em suas aplicações. 🚀  
+
+---
+
 
 
 
