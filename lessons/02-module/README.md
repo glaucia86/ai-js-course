@@ -17,7 +17,7 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-2)
   - [**Episódio 2.4: Executando os Exemplos de Text Completions**](#episódio-24-executando-os-exemplos-de-text-completions)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-3)
-    - [**Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**](#episódio-25-fundamentos-do-gerenciamento-de-respostas-da-azure-openai)
+  - [**Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**](#episódio-25-fundamentos-do-gerenciamento-de-respostas-da-azure-openai)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-4)
   - [**Episódio 2.6: Implementando o Gerenciamento de Respostas**](#episódio-26-implementando-o-gerenciamento-de-respostas)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-5)
@@ -29,8 +29,10 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-8)
   - [**Episódio 2.10: Implementação Prática de Processamento de Áudio**](#episódio-210-implementação-prática-de-processamento-de-áudio)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-9)
-      - [Episódio 2.8: Processamento de Áudio - Técnicas Avançadas (12 minutos)](#episódio-28-processamento-de-áudio---técnicas-avançadas-12-minutos)
-      - [Episódio 2.9: Text-to-Speech Implementação (10 minutos)](#episódio-29-text-to-speech-implementação-10-minutos)
+  - [**Episódio 2.11: Os Fundamentos do Text-to-Speech**](#episódio-211-os-fundamentos-do-text-to-speech)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-10)
+  - [**Episódio 2.12: Implementação Prática de Text-to-Speech**](#episódio-212-implementação-prática-de-text-to-speech)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-11)
       - [Bloco 3: Recursos Fundamentais Avançados (3 episódios)](#bloco-3-recursos-fundamentais-avançados-3-episódios)
         - [Episódio 2.10: Embeddings na Prática (12 minutos)](#episódio-210-embeddings-na-prática-12-minutos)
         - [Episódio 2.11: Batch Processing (12 minutos)](#episódio-211-batch-processing-12-minutos)
@@ -159,11 +161,7 @@ Ao final deste episódio, você será capaz de **implementar e otimizar Text Com
 
 ---
 
-Aqui está a versão do **Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI** seguindo a estrutura que você deseja:  
-
----
-
-### **Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**  
+## **Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI**  
 
 - **Link do Vídeo**: [Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI]()  
 - **Recursos**: [Recursos do Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI](./resources/05-resources.md)  
@@ -187,10 +185,6 @@ Neste episódio, exploramos **como a API da Azure OpenAI estrutura suas resposta
 - **Otimização de Performance** → Como **controlar custos**, implementar **cache** para respostas frequentes e monitorar o **uso da API** para evitar desperdícios.  
 
 Ao final deste episódio, você terá uma compreensão clara sobre **como processar, validar e otimizar as respostas da Azure OpenAI**, garantindo maior eficiência e confiabilidade ao integrar IA em suas aplicações. 🚀  
-
----
-
-Aqui está a versão do **Episódio 2.6: Implementando o Gerenciamento de Respostas**, seguindo o modelo solicitado:
 
 ---
 
@@ -224,10 +218,6 @@ Neste episódio prático, colocaremos em prática os conceitos do episódio ante
 - **Retry Mechanisms e Filas de Processamento** → Como reprocessar chamadas falhas de forma automática e otimizada.  
 
 Ao final deste episódio, você terá um sistema funcional para **gerenciar, validar e otimizar respostas da Azure OpenAI**, garantindo **eficiência, segurança e escalabilidade** na integração de IA em suas aplicações. 🚀  
-
----
-
-Aqui está a versão estruturada do **Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E**, seguindo o modelo solicitado:
 
 ---
 
@@ -275,10 +265,6 @@ Neste episódio, exploraremos os conceitos fundamentais por trás da **geração
   - **Estratégias de otimização** para reduzir custos e melhorar a eficiência das chamadas à API.  
 
 Ao final deste episódio, você terá um entendimento sólido sobre **como gerar imagens com o DALL-E via Azure OpenAI**, utilizando **melhores práticas para prompts, otimização de configurações e gerenciamento seguro dos resultados**. 
-
----
-
-Aqui está a versão reduzida do **Episódio 2.8: Implementando DALL-E na Prática**, mantendo a estrutura desejada:  
 
 ---
 
@@ -369,22 +355,49 @@ Ao final deste episódio, você terá um sistema funcional capaz de **converter 
 
 ---
 
+## **Episódio 2.11: Os Fundamentos do Text-to-Speech**  
 
-#### Episódio 2.8: Processamento de Áudio - Técnicas Avançadas (12 minutos)
+- **Link do Vídeo**: [Episódio 2.11: Text-to-Speech - Fundamentos]()  
+- **Recursos**: [Recursos do Episódio 2.11: Text-to-Speech - Fundamentos](./resources/11-resources.md)  
 
-- Processamento avançado de áudio
-- Análise de sentimento em áudio
-- Detecção de idiomas
-- Transcrição em tempo real
-- Otimização de qualidade
+Neste episódio, exploramos os **fundamentos do Text-to-Speech (TTS)** utilizando o **Azure OpenAI Service**. Compreenderemos **como o sistema converte texto em áudio**, suas capacidades, limitações e melhores práticas para integração em aplicações de IA.  
 
-#### Episódio 2.9: Text-to-Speech Implementação (10 minutos)
+### 📌 O que você aprenderá?  
 
-- Implementação de text-to-speech
-- Customização de vozes e parâmetros
-- Gerenciamento de arquivos de áudio
-- Streaming de áudio
-- Integração com interfaces de usuário
+- **Introdução ao Text-to-Speech** → Como a tecnologia TTS funciona e sua evolução com **modelos baseados em IA**.  
+
+- **Casos de Uso e Aplicações Práticas** → Exemplos de aplicações como **narradores virtuais, audiobooks, assistentes de voz e acessibilidade**.  
+
+- **Arquitetura do Sistema TTS** → Como ocorre o processamento do texto para áudio dentro do Azure OpenAI.  
+
+- **Catálogo de Vozes Disponíveis** → Explorando vozes como **alloy, echo, fable, onyx, nova e shimmer**, suas características e otimizações.  
+
+- **Formatos de Áudio e Qualidade** → Diferenças entre **MP3, Opus, AAC, FLAC, WAV, PCM** e otimizações de qualidade vs. latência.  
+
+- **Suporte a Idiomas e Personalização** → Como escolher vozes para diferentes idiomas e configurar **ajustes de entonação e velocidade**.  
+
+- **Aspectos Técnicos Importantes** → Limitações, requisitos de desempenho e diretrizes de divulgação para usuários finais.  
+
+Ao final deste episódio, você terá uma base sólida sobre **como funciona o Text-to-Speech no Azure OpenAI**, preparando-se para a implementação prática no próximo episódio. 🚀  
+
+---
+
+## **Episódio 2.12: Implementação Prática de Text-to-Speech**  
+
+- **Link do Vídeo**: [Episódio 2.12: Implementação Prática de Text-to-Speech]()  
+- **Recursos**: [Recursos do Episódio 2.12: Implementação Prática de Text-to-Speech](./resources/12-resources.md)  
+
+Neste episódio, **implementaremos a API de Text-to-Speech** no **Azure OpenAI Service** utilizando **TypeScript**, explorando **como transformar texto em áudio** de maneira eficiente e otimizada.  
+
+### 📌 O que você aprenderá?  
+
+- **Exemplos Práticos** → Demonstrações de uso da API em diferentes contextos de aplicação.  
+
+Ao final deste episódio, você terá um sistema funcional para **converter texto em voz** de forma eficiente, podendo expandir para aplicações como **assistentes virtuais e geração de audiobooks**. 
+
+---
+
+
 
 #### Bloco 3: Recursos Fundamentais Avançados (3 episódios)
 

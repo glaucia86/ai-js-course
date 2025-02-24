@@ -1,0 +1,1 @@
+# Recursos do Episódio 2.11: Text-to-Speech - Fundamentos
