@@ -33,8 +33,14 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-10)
   - [**Episódio 2.12: Implementação Prática de Text-to-Speech**](#episódio-212-implementação-prática-de-text-to-speech)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-11)
-      - [Bloco 3: Recursos Fundamentais Avançados (3 episódios)](#bloco-3-recursos-fundamentais-avançados-3-episódios)
-        - [Episódio 2.10: Embeddings na Prática (12 minutos)](#episódio-210-embeddings-na-prática-12-minutos)
+  - [**Episódio 2.13: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper**](#episódio-213-speech-to-text-com-azure-openai---fundamentos-do-modelo-whisper)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-12)
+  - [**Episódio 2.14: Implementação Prática de Speech-to-Text com Whisper**](#episódio-214-implementação-prática-de-speech-to-text-com-whisper)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-13)
+  - [**Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI**](#episódio-215-fundamentos-de-embeddings-com-azure-openai)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-14)
+  - [**Episódio 2.16: Implementação Prática de Embeddings**](#episódio-216-implementação-prática-de-embeddings)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-15)
         - [Episódio 2.11: Batch Processing (12 minutos)](#episódio-211-batch-processing-12-minutos)
         - [Episódio 2.12: Otimização de Recursos (10 minutos)](#episódio-212-otimização-de-recursos-10-minutos)
     - [🎯 Projeto Prático do Módulo](#-projeto-prático-do-módulo)
@@ -397,17 +403,100 @@ Ao final deste episódio, você terá um sistema funcional para **converter text
 
 ---
 
+## **Episódio 2.13: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper**  
 
+- **Link do Vídeo**: [Episódio 2.12: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper]()  
+- **Recursos**: [Recursos do Episódio 2.12: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper](./resources/12-resources.md)  
 
-#### Bloco 3: Recursos Fundamentais Avançados (3 episódios)
+Neste episódio, exploramos os **fundamentos do Speech-to-Text (STT)** utilizando o **modelo Whisper no Azure OpenAI Service**. Compreenderemos **como o modelo funciona, suas capacidades, limitações e melhores práticas** para obter transcrições precisas e eficientes.  
 
-##### Episódio 2.10: Embeddings na Prática (12 minutos)
+### 📌 O que você aprenderá?  
 
-- Fundamentos de embeddings
-- Implementação de sistemas de similaridade
-- Armazenamento e indexação de embeddings
-- Otimização de consultas
-- Casos de uso práticos
+- **Introdução ao Modelo Whisper** → Como funciona o **modelo Whisper**, suas diferenças em relação a outros sistemas de transcrição e seus casos de uso.  
+
+- **Modos de Operação** → Diferença entre **transcrição de áudio na língua original** e **tradução automática para inglês**.  
+
+- **Suporte a Idiomas e Precisão** → Como o modelo suporta **98 línguas** e quais fatores influenciam a precisão da transcrição (WER - Word Error Rate).  
+
+- **Aspectos Técnicos** → Limitações da API, incluindo **tamanho máximo de arquivo (25MB), formatos suportados e qualidade do áudio**.  
+
+- **Técnicas de Prompting** → Como utilizar **prompts personalizados** para melhorar a precisão da transcrição e corrigir erros comuns.  
+
+- **Recursos Avançados** → Como ativar granularidade de **timestamps**, processar **áudios longos** e utilizar a **formatação automática de saída**.  
+
+Ao final deste episódio, você terá uma visão clara sobre **como o modelo Whisper processa áudio e gera transcrições**, preparando-se para implementá-lo na prática no próximo episódio.
+
+---
+
+## **Episódio 2.14: Implementação Prática de Speech-to-Text com Whisper**  
+
+- **Link do Vídeo**: [Episódio 2.13: Implementação Prática de Speech-to-Text com Whisper]()  
+- **Recursos**: [Recursos do Episódio 2.13: Implementação Prática de Speech-to-Text com Whisper](./resources/13-resources.md)  
+
+Neste episódio, **implementaremos a API de Speech-to-Text (STT) com o modelo Whisper** no **Azure OpenAI Service**, utilizando **TypeScript** para processar áudios e gerar transcrições automatizadas.  
+
+### 📌 O que você aprenderá?  
+
+- **Configuração do Ambiente** → Como configurar um projeto **TypeScript** e inicializar o **Azure OpenAI SDK** para transcrição de áudio.  
+
+- **Implementação de Transcrição Simples** → Como converter áudio em texto de forma eficiente.  
+
+- **Manipulação de Respostas da API** → Como processar a saída da transcrição e armazenar os resultados.  
+
+- **Otimização de Processamento** → Estratégias para **redução de latência, tratamento de erros e gerenciamento de arquivos de áudio**.  
+
+- **Tradução Automática de Áudio** → Como utilizar a API para converter **áudio em diferentes idiomas para inglês**.  
+
+Ao final deste episódio, você terá um sistema funcional para **converter áudio em texto** de forma eficiente, podendo expandi-lo para aplicações como **legendagem automática e assistentes de voz**. 
+
+---
+
+## **Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI**  
+
+- **Link do Vídeo**: [Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI]()  
+- **Recursos**: [Recursos do Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI](./resources/15-resources.md)  
+
+Neste episódio, exploramos os **conceitos fundamentais de embeddings**, sua aplicação no **processamento de linguagem natural (NLP)** e como utilizá-los no **Azure OpenAI Service**.  
+
+### 📌 O que você aprenderá?  
+
+- **O que são Embeddings?** → Como funcionam e sua importância na **representação semântica de texto**.  
+
+- **Arquitetura e Funcionamento** → Como os embeddings são estruturados, **dimensionalidade e cálculo de similaridade**.  
+
+- **Modelos disponíveis** → Comparação entre **text-embedding-3-small e text-embedding-3-large**.  
+
+- **Principais Aplicações** → Casos de uso como **busca semântica, recomendação, classificação de texto e detecção de similaridade**.  
+
+- **Aspectos Técnicos** → Gerenciamento de **tokens, armazenamento de embeddings e otimização de performance**.  
+
+Ao final deste episódio, você terá um entendimento claro sobre **como embeddings funcionam e como podem ser aplicados a problemas reais**, preparando-se para a implementação no próximo episódio.   
+
+---
+
+## **Episódio 2.16: Implementação Prática de Embeddings**  
+
+- **Link do Vídeo**: [Episódio 2.16: Implementação Prática de Embeddings]()  
+- **Recursos**: [Recursos do Episódio 2.16: Implementação Prática de Embeddings](./resources/16-resources.md)  
+
+Neste episódio, **implementaremos a API de embeddings do Azure OpenAI Service** utilizando **TypeScript**, gerando embeddings de textos e aplicando-os a diferentes cenários práticos.  
+
+### 📌 O que você aprenderá?  
+
+- **Configuração do Ambiente** → Como preparar o projeto **TypeScript** e integrar o **Azure OpenAI SDK**.  
+
+- **Geração de Embeddings** → Como transformar textos em **vetores semânticos** e armazená-los.  
+
+- **Cálculo de Similaridade** → Como comparar embeddings usando **distância de cosseno** para encontrar textos relacionados.  
+
+- **Implementação de Busca Semântica** → Como utilizar embeddings para melhorar a recuperação de informações.  
+
+- **Otimização de Performance** → Estratégias para **armazenamento, caching e escalabilidade** na manipulação de embeddings.  
+
+Ao final deste episódio, você será capaz de **gerar, armazenar e utilizar embeddings em aplicações reais**, criando sistemas mais inteligentes e eficientes. 
+
+---
+
 
 ##### Episódio 2.11: Batch Processing (12 minutos)
 
