@@ -41,10 +41,14 @@ Este módulo foca na aplicação prática dos conceitos teóricos aprendidos ant
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-14)
   - [**Episódio 2.16: Implementação Prática de Embeddings**](#episódio-216-implementação-prática-de-embeddings)
     - [📌 O que você aprenderá?](#-o-que-você-aprenderá-15)
-        - [Episódio 2.11: Batch Processing (12 minutos)](#episódio-211-batch-processing-12-minutos)
-        - [Episódio 2.12: Otimização de Recursos (10 minutos)](#episódio-212-otimização-de-recursos-10-minutos)
-    - [🎯 Projeto Prático do Módulo](#-projeto-prático-do-módulo)
-    - [📚 Recursos e Materiais de Apoio](#-recursos-e-materiais-de-apoio)
+  - [**Episódio 2.17: Vision - Fundamentos Teóricos**](#episódio-217-vision---fundamentos-teóricos)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-16)
+  - [**Episódio 2.18: Vision - Implementação Prática**](#episódio-218-vision---implementação-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-17)
+  - [**Episódio 2.19: Function Calling - Fundamentos Teóricos**](#episódio-219-function-calling---fundamentos-teóricos)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-18)
+  - [**Episódio 2.20: Function Calling - Implementação Prática**](#episódio-220-function-calling---implementação-prática)
+    - [📌 O que você aprenderá?](#-o-que-você-aprenderá-19)
       
 
 ## 💻 Vídeos
@@ -497,40 +501,110 @@ Ao final deste episódio, você será capaz de **gerar, armazenar e utilizar emb
 
 ---
 
+## **Episódio 2.17: Vision - Fundamentos Teóricos**  
 
-##### Episódio 2.11: Batch Processing (12 minutos)
+- **Link do Vídeo**: [Episódio 2.17: Vision - Fundamentos Teóricos]()  
+- **Recursos**: [Recursos do Episódio 2.17: Vision - Fundamentos Teóricos](./resources/17-resources.md)  
 
-- Processamento em lote de requisições
-- Gerenciamento de concorrência
-- Estratégias de paralelização
-- Monitoramento de performance
-- Tratamento de falhas em lote
+Neste episódio, exploramos os **conceitos fundamentais da visão computacional** no **Azure OpenAI Service**, compreendendo **como os modelos processam imagens e sua aplicação em cenários reais**.  
 
-##### Episódio 2.12: Otimização de Recursos (10 minutos)
+### 📌 O que você aprenderá?  
 
-- Estratégias de otimização de custos
-- Caching e armazenamento
-- Monitoramento de uso
-- Práticas de logging
-- Métricas e analytics
+- **Introdução aos Modelos de Visão** → Como funcionam os modelos **GPT-4o, GPT-4o-mini e GPT-4 Turbo with Vision**.  
 
-### 🎯 Projeto Prático do Módulo
+- **Evolução dos Modelos Multimodais** → Como a IA passou de modelos puramente textuais para compreensão de imagens.  
 
-Ao final deste módulo, você desenvolverá um assistente virtual multimodal que integra:
+- **Arquitetura e Funcionamento** → Como ocorre o **processamento de imagens na API do Azure OpenAI**.  
 
-- Processamento de texto e chat
-- Geração de imagens
-- Processamento de áudio
-- Sistema de embeddings
-- Otimização de recursos e performance
+- **Modos de Processamento** → Diferença entre **low e high fidelity**, impacto no processamento e custos de tokens.  
 
-### 📚 Recursos e Materiais de Apoio
+- **Limites e Considerações Técnicas** → Tamanho máximo de arquivos **(20MB), formatos suportados (PNG, JPEG, WEBP, GIF)** e melhores práticas para desempenho.  
 
-Para cada episódio, fornecemos:
+- **Melhores Práticas** → Estratégias para **otimização de imagens, processamento de múltiplas imagens e gestão de custos**.  
 
-- Código fonte completo com exemplos
-- Documentação detalhada
-- Exercícios práticos
-- Diagramas e fluxogramas
-- Links para recursos adicionais
+Ao final deste episódio, você terá um entendimento sólido sobre **como funciona a visão computacional no Azure OpenAI**, preparando-se para a implementação prática no próximo episódio. 🚀  
+
+---
+
+## **Episódio 2.18: Vision - Implementação Prática**  
+
+- **Link do Vídeo**: [Episódio 2.18: Vision - Implementação Prática]()  
+- **Recursos**: [Recursos do Episódio 2.18: Vision - Implementação Prática](./resources/18-resources.md)  
+
+Neste episódio, **implementaremos a API de Visão Computacional do Azure OpenAI Service** utilizando **TypeScript**, explorando **como processar e analisar imagens via API**.  
+
+### 📌 O que você aprenderá?  
+
+- **Configuração do Ambiente** → Como preparar um projeto **TypeScript** para consumir a API de visão.  
+
+- **Criação de Requisições de Processamento de Imagem** → Como estruturar chamadas para **analisar imagens e extrair informações visuais**.  
+
+- **Manipulação de Respostas** → Como processar os resultados gerados pela API.  
+
+- **Casos de Uso Práticos** → Como utilizar **visão computacional para análise de imagens, reconhecimento de padrões e integração com chatbots**.  
+
+- **Otimização e Performance** → Estratégias para **gerenciamento de recursos, caching e monitoramento de custos**.  
+
+Ao final deste episódio, você será capaz de **processar imagens via API do Azure OpenAI**, aplicando os conceitos de visão computacional em aplicações reais.  
+
+---
+
+## **Episódio 2.19: Function Calling - Fundamentos Teóricos**  
+
+- **Link do Vídeo**: [Episódio 2.19: Function Calling - Fundamentos Teóricos]()  
+- **Recursos**: [Recursos do Episódio 2.19: Function Calling - Fundamentos Teóricos](./resources/19-resources.md)  
+
+Neste episódio, exploramos os **fundamentos do Function Calling no Azure OpenAI Service**, compreendendo **como expandir as capacidades dos modelos de IA permitindo que eles interajam com funções personalizadas de forma segura e eficiente**.  
+
+### 📌 O que você aprenderá?  
+
+- **O que é Function Calling?** → Como funciona o conceito e sua importância na integração entre **modelos de IA e código personalizado**.  
+
+- **Arquitetura e Funcionamento** → Como o Function Calling opera dentro do **Azure OpenAI Service**, incluindo o **fluxo de comunicação entre o modelo e as funções**.  
+
+- **Tipos de Function Calling** → Diferenças entre **chamadas síncronas e assíncronas**, e quando usar cada abordagem.  
+
+- **Componentes Principais** → Estrutura das **definições de função, esquemas JSON, parâmetros obrigatórios e opcionais**.  
+
+- **Segurança e Boas Práticas** → Princípios essenciais para garantir **segurança na implementação**, incluindo **validação de entrada e gestão de permissões**.  
+
+- **Casos de Uso** → Exemplos práticos de aplicação, como **integração com APIs externas, processamento de dados e automação de tarefas**.  
+
+Ao final deste episódio, você terá um entendimento sólido sobre **como Function Calling pode ser usado para conectar modelos de IA a funções externas**, preparando-se para a implementação prática no próximo episódio.  
+
+---
+
+## **Episódio 2.20: Function Calling - Implementação Prática**  
+
+- **Link do Vídeo**: [Episódio 2.20: Function Calling - Implementação Prática]()  
+- **Recursos**: [Recursos do Episódio 2.20: Function Calling - Implementação Prática](./resources/20-resources.md)  
+
+Neste episódio, aplicamos os conceitos aprendidos anteriormente, **implementando Function Calling em aplicações TypeScript/JavaScript** para permitir que modelos de IA chamem funções externas de forma eficiente.  
+
+### 📌 O que você aprenderá?  
+
+- **Setup do Ambiente** → Como configurar um **projeto TypeScript** para consumir a API de Function Calling no **Azure OpenAI Service**.  
+
+- **Criação e Registro de Funções** → Como definir funções que **podem ser chamadas pelo modelo de IA**.  
+
+- **Gestão de Respostas** → Como processar e validar as **respostas retornadas pelo modelo**, incluindo **tratamento de erros**.  
+
+- **Otimização de Performance** → Estratégias para melhorar a **eficiência das chamadas de função**, incluindo **caching e paralelização**.  
+
+- **Demonstrações Práticas** → Exemplos concretos de integração com:  
+  - **APIs externas para busca de dados**.  
+  - **Sistemas de banco de dados** para armazenar e recuperar informações.  
+  - **Serviços de processamento** para cálculos e manipulação de dados.  
+  - **Automação de tarefas** com base em comandos de IA.  
+
+- **Debug e Troubleshooting** → Como identificar e resolver **problemas comuns na implementação de Function Calling**.  
+
+Ao final deste episódio, você terá um sistema funcional onde **um modelo de IA pode interagir com funções personalizadas**, permitindo **integrações seguras e eficientes com sistemas externos**. 
+
+---
+
+
+
+
+
 
