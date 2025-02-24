@@ -214,40 +214,9 @@ Abaixo, você pode ver um diagrama que ilustra o fluxo do curso:
 
 ```mermaid
 graph TD
-    A[📚 Curso Completo] --> B1[1️⃣ Introdução à IA]
-    A --> B2[2️⃣ Fundamentos Práticos]
-    A --> B3[3️⃣ Streaming e Integrações]
-    A --> B4[4️⃣ Assistants AI]
-    A --> B5[5️⃣ RAG e Frameworks Avançados]
-    A --> B6[6️⃣ AI Agents e Automação]
-    A --> B7[7️⃣ Produção e Segurança]
-    A --> B8[🎓 Projeto Final: Sistema Completo]
-
-    B1 -->|🚀 Visão geral da IA e LLMs| C1[Fundamentos de IA]
-    B1 -->|📝 Prompt Engineering| C2[Criação de Prompts]
-    
-    B2 -->|💻 Azure OpenAI e Open-Source| C3[Text Completions, Chat e Imagens]
-    B2 -->|🎙️ Processamento de Áudio| C4[Speech-to-Text e Text-to-Speech]
-    B2 -->|🔎 Embeddings e Busca| C5[Busca Semântica com IA]
-    B2 -->|🔧 Function Calling| C6[Conectando IA a APIs]
-    
-    B3 -->|📡 Streaming de IA| C7[Chat Streaming e SSE]
-    B3 -->|🛡️ Segurança em Filtros| C8[Monitoramento de IA]
-    
-    B4 -->|🤖 Criando Assistentes| C9[Assistants AI com OpenAI]
-    B4 -->|🧠 Memória e Histórico| C10[Gerenciamento de Estado]
-    
-    B5 -->|🔍 Implementação de RAG| C11[Busca Inteligente com LangChain.js]
-    B5 -->|📊 Armazenamento Vetorial| C12[Vector DBs: Pinecone, Weaviate]
-    
-    B6 -->|🕵️ AI Agents| C13[Arquitetura e Projeto Prático]
-    B6 -->|📡 Code Interpreter| C14[Automação com IA]
-    
-    B7 -->|🔒 Segurança e Escalabilidade| C15[Protegendo Aplicações de IA]
-    B7 -->|⚖️ Ética e Privacidade| C16[Uso Responsável de IA]
-    
-    B8 -->|🏗️ Criando um Sistema Completo| C17[Projeto Final: Deploy Seguro]
-
+    A[📚 AI for JavaScript and TypeScript Developers] -->|📖 Teoria| B[Conceitos e Fundamentos]
+    B -->|💻 Prática| C[Implementação e Projetos]
+    C -->|🎯 Aplicação| D[Projeto Final e Produção]
 ```
 
 ## ❗️Links & Recursos Importantes
