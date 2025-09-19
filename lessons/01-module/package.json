@@ -4,7 +4,12 @@
   "description": "Este módulo é totalmente focado na **implementação prática da IA com TypeScript**, permitindo que você desenvolva aplicações AI-first com as melhores práticas do mercado.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon --exec ts-node src/index.ts",
+    "hello-gh": "ts-node src/examples/1-text-generation/test-gh-models.ts",
+    "hello-gemini": "ts-node src/examples/1-text-generation/test-gemini.ts"
   },
   "keywords": [
     "typescript",
