@@ -1,0 +1,29 @@
+{
+  "name": "01-module",
+  "version": "1.0.0",
+  "description": "Este módulo é totalmente focado na **implementação prática da IA com TypeScript**, permitindo que você desenvolva aplicações AI-first com as melhores práticas do mercado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "openai",
+    "ai",
+    "gemini",
+    "tutorial"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "dotenv": "^17.2.2",
+    "openai": "^5.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
