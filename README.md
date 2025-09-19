@@ -42,6 +42,10 @@ Para garantir uma experiência prática e acessível para todos os alunos, utili
   
   Com o **GitHub Models**, você poderá acessar diferentes modelos de forma gratuita (sem ser em produção). Você aprenderá a utilizá-los em diversos casos práticos ao longo do curso.
 
+- **[Google Gemini](https://developers.generativeai.google/)** 🌐💡  
+  
+  O **Google Gemini** é a mais nova geração de modelos de linguagem da Google, oferecendo capacidades avançadas para criação de texto, compreensão de linguagem natural e muito mais. Durante o curso, exploraremos como integrar o Gemini em aplicações JavaScript/TypeScript.
+
 - **[TypeScript](https://www.typescriptlang.org/)** ⌨️  
   
   O curso será baseado principalmente em **TypeScript** devido à sua forte tipagem e melhor manutenção de código em projetos de IA. Se você já programa em **JavaScript**, a transição será tranquila.
@@ -56,13 +60,9 @@ Dependendo do nível de aprofundamento, também exploraremos algumas dessas ferr
 
 - **[LangChain.js](https://js.langchain.com/docs/introduction/)** 🦜 → Para criar aplicações de IA mais complexas, como agentes conversacionais e fluxos estruturados.  
   
-- **[LlamaIndex.ts](https://ts.llamaindex.ai/)** 🦙 → Para conectar LLMs a bases de dados e construir sistemas de busca aprimorados (Retrieval-Augmented Generation - RAG).  
-  
-- **[Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/?WT.mc_id=javascript-00000-gllemos)** ☁️ → Para consumir modelos avançados da OpenAI diretamente no **Azure**, garantindo escalabilidade e segurança. E, claro, caso deseje colocar o seu projeto em produção.
-  
-- **[Hugging Face Transformers](https://huggingface.co/docs/transformers/index)** 🤗 → Para explorar modelos open-source caso você queira ir além do ecossistema Azure/OpenAI.
-   
-- **[Deno](https://deno.com/)** 🦕 (Opcional) → Para quem deseja explorar uma alternativa ao Node.js no desenvolvimento de aplicações TypeScript modernas.  
+- **[LlamaIndex.ts](https://ts.llamaindex.ai/)** 🦙 → Para conectar LLMs a bases de dados e construir sistemas de busca aprimorados (Retrieval-Augmented Generation - RAG).
+
+E tantas outras mais!
 
 ## 💡 Por que essas ferramentas?
 
@@ -80,52 +80,14 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 ## Nível Básico
 
-<details><summary><b>Módulo 1: Introdução à Inteligência Artificial</b></summary>
+<details><summary><b>Módulo 1: Nível Básico - Fundamentos Práticos</b></summary>
 
-- [Episódio 1.1: O Jogo Mudou - A Revolução da IA](./lessons/01-module/README.md#episodio-1-o-jogo-mudou---a-revolucao-da-ia)
-- [Episódio 1.2: Episódio 1.2: Explorando Modelos Open-Source de IA](./lessons/01-module/README.md#episodio-2-explorando-modelos-open-source-de-ia)
-- [Episódio 1.3: Arquitetura de LLMs para Desenvolvedores](./lessons/01-module/README.md#episodio-2-arquitetura-de-llms-para-desenvolvedores)
-- [Episódio 1.4: Fundamentos Práticos de LLMs](./lessons/01-module/README.md#episodio-3-fundamentos-praticos-de-llms)
-- [Episódio 1.5: Navegando pelo Ecossistema de IA](./lessons/01-module/README.md#episodio-4-navegando-pelo-ecossistema-de-ia)  
-- [Episódio 1.6: Fundamentos de Prompt Engineering](./lessons/01-module/README.md#episodio-5-fundamentos-de-prompt-engineering)
-- [Episódio 1.7: Técnicas Avançadas de Prompting](./lessons/01-module/README.md#episodio-6-tecnicas-avancadas-de-prompting)
-
-</details>
-
-<details><summary><b>Módulo 2: Nível Básico - Fundamentos Práticos</b></summary>
-
-- [Episódio 2.1: Setup do Ambiente de Desenvolvimento](./lessons/02-module/README.md#episodio-1-setup-do-ambiente-de-desenvolvimento)
-- [Episódio 2.2: Fundamentos do Azure OpenAI SDK](./lessons/02-module/README.md#episodio-2-fundamentos-do-azure-openai-sdk)
-- [Episódio 2.3: Text Completions Fundamentais](./lessons/02-module/README.md#episodio-3-text-completions-fundamentais)
-- [Episódio 2.4: Executando os Exemplos de Text Completions](./lessons/02-module/README.md#episodio-4-executando-os-exemplos)
-- [Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI](./lessons/02-module/README.md#episodio-5-fundamentos-do-gerenciamento-de-respostas-da-azure-openai)
-- [Episódio 2.6: Implementando o Gerenciamento de Respostas](./lessons/02-module/README.md#episodio-6-implementando-o-gerenciamento-de-respostas)
-- [Episódio 2.7: Fundamentos da Geração de Imagens com DALL-E](./lessons/02-module/README.md#episodio-7-fundamentos-da-geracao-de-imagens-com-dall-e)
-- [Episódio 2.8: Implementando DALL-E na Prática](./lessons/02-module/README.md#episodio-8-implementando-dall-e-na-pratica)
-- [Episódio 2.9: Processamento de Áudio - Fundamentos](./lessons/02-module/README.md#episodio-9-processamento-de-audio---fundamentos)
-- [Episódio 2.10: Implementação Prática de Processamento de Áudio](./lessons/02-module/README.md#episodio-10-implementacao-pratica-de-processamento-de-audio)
-- [Episódio 2.11: Os Fundamentos do Text-to-Speech](./lessons/02-module/README.md#episodio-11-os-fundamentos-do-text-to-speech)
-- [Episódio 2.12: Implementação Prática de Text-to-Speech](./lessons/02-module/README.md#episodio-12-implementacao-pratica-de-text-to-speech)
-- [Episódio 2.13: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper](./lessons/02-module/README.md#episodio-13-speech-to-text-com-azure-openai---fundamentos-do-modelo-whisper)
-- [Episódio 2.14: Implementação Prática de Speech-to-Text com Whisper](./lessons/02-module/README.md#episodio-14-implementacao-pratica-de-speech-to-text-com-whisper)
-- [Episódio 2.15: Fundamentos de Embeddings com Azure OpenAI](./lessons/02-module/README.md#episodio-15-fundamentos-de-embeddings-com-azure-openai)
-- [Episódio 2.16: Implementação Prática de Embeddings](./lessons/02-module/README.md#episodio-16-implementacao-pratica-de-embeddings)
-- [Episódio 2.17: Vision - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-17-vision---fundamentos-teoricos)
-- [Episódio 2.18: Vision - Implementação Prática](./lessons/02-module/README.md#episodio-18-vision---implementacao-pratica)
-- [Episódio 2.19: Function Calling - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-19-function-calling---fundamentos-teoricos)
-- [Episódio 2.20: Function Calling - Implementação Prática](./lessons/02-module/README.md#episodio-20-function-calling---implementacao-pratica)
-- [Episódio 2.21: Reasoning - Fundamentos dos Modelos de Raciocínio](./lessons/02-module/README.md#episodio-21-reasoning---fundamentos-dos-modelos-de-raciocinio)
-- [Episódio 2.22: Reasoning - Implementação Prática](./lessons/02-module/README.md#episodio-22-reasoning---implementacao-pratica)
-- [Episódio 2.23: Structured Outputs - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-23-structured-outputs---fundamentos-teoricos)
-- [Episódio 2.24: Structured Outputs - Implementação Prática](./lessons/02-module/README.md#episodio-24-structured-outputs---implementacao-pratica)
-- [Episódio 2.25: Predicted Outputs - Fundamentos Teóricos](./lessons/02-module/README.md#episodio-25-predicted-outputs---fundamentos-teoricos)
-- [Episódio 2.26: Predicted Outputs - Implementação Prática](./lessons/02-module/README.md#episodio-26-predicted-outputs---implementacao-pratica)
 
 </details>
 
 ## Nível Intermediário: Aplicações Práticas
 
-<details><summary><b>Módulo 3: Streaming e Integrações</b></summary>
+<details><summary><b>Módulo 2: Streaming e Integrações</b></summary>
 
 - [Fundamentos de Streaming em IA](#)  
 - [Chat com Streaming](#)  
@@ -136,7 +98,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-<details><summary><b>Módulo 4: Assistants AI</b></summary>
+<details><summary><b>Módulo 3: Assistants AI</b></summary>
 
 - [Fundamentos de Assistants AI](#)  
 - [Criando Assistants AI com OpenAI](#)  
@@ -149,7 +111,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 ## Nível Avançado: Sistemas Complexos
 
-<details><summary><b>Módulo 5: RAG e Frameworks Avançados</b></summary>
+<details><summary><b>Módulo 4: RAG e Frameworks Avançados</b></summary>
 
 - [Fundamentos de RAG](#)  
 - [Implementação Prática de RAG](#)  
@@ -164,7 +126,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-<details><summary><b>Módulo 6: AI Agents e Automação</b></summary>
+<details><summary><b>Módulo 5: AI Agents e Automação</b></summary>
 
 - [Arquitetura de AI Agents](#)
 - [Function Calling na Prática](#)
@@ -173,7 +135,7 @@ Se você ainda não está familiarizado com algumas dessas ferramentas, não se 
 
 </details>
 
-<details><summary><b>Módulo 7: Produção e Segurança</b></summary>
+<details><summary><b>Módulo 6: Produção e Segurança</b></summary>
 
 - [Segurança em Sistemas de IA](#)  
 - [Privacidade e Ética](#)  
