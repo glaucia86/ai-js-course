@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.10: Implementação Prática de Processamento de Áudio

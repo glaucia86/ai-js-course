@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.9: Processamento de Áudio - Fundamentos

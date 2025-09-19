@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.13: Implementação Prática de Speech-to-Text com Whisper

@@ -1,1 +1,0 @@
-# Recursos do Episódio 4: Navegando pelo Ecossistema de IA

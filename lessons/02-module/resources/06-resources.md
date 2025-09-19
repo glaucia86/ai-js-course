@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.6: Implementando o Gerenciamento de Respostas

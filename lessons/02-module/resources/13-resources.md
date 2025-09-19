@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.12: Speech-to-Text com Azure OpenAI - Fundamentos do Modelo Whisper

@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.12: Implementação Prática de Text-to-Speech

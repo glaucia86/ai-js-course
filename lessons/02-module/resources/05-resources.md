@@ -1,1 +1,0 @@
-# Recursos do Episódio 2.5: Fundamentos do Gerenciamento de Respostas da Azure OpenAI
