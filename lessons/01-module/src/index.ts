@@ -9,7 +9,7 @@ loadEnvironment();
 // Descomente a linha do exemplo que você quer executar:
 
 async function main() {
-  console.log("🚀 LangChain TypeScript Environment Ready!");
+  console.log("🚀 TypeScript Environment Ready!");
   console.log("=".repeat(50));
 
   // Exemplos disponíveis:
