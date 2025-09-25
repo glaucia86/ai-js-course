@@ -1,5 +1,5 @@
 {
-  "name": "01-module",
+  "name": "01-module-branch",
   "version": "1.0.0",
   "description": "Este módulo é totalmente focado na **implementação prática da IA com TypeScript**, permitindo que você desenvolva aplicações AI-first com as melhores práticas do mercado.",
   "main": "index.js",
